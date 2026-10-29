@@ -1,0 +1,21 @@
+{
+  "name": "testland-ai",
+  "displayName": "Testland AI",
+  "version": "1.0.1",
+  "description": "Testing AI and data systems: LLM evaluation and red-teaming, ML model tests, search relevance, AI-assisted test generation and review, and data quality checks.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "llm-evaluation",
+    "ml-testing",
+    "search-relevance",
+    "data-quality"
+  ]
+}

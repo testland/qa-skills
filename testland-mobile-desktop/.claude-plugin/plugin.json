@@ -1,0 +1,23 @@
+{
+  "name": "testland-mobile-desktop",
+  "displayName": "Testland Mobile and Desktop",
+  "version": "1.0.1",
+  "description": "Testing native apps and devices: iOS and Android, desktop apps, embedded and hardware-in-the-loop systems, and games.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "mobile",
+    "ios",
+    "android",
+    "desktop",
+    "embedded",
+    "games"
+  ]
+}

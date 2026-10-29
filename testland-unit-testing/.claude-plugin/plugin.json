@@ -1,0 +1,22 @@
+{
+  "name": "testland-unit-testing",
+  "displayName": "Testland Unit Testing",
+  "version": "1.0.1",
+  "description": "Unit and code-level testing: unit tests for JavaScript and TypeScript, Python, JVM, .NET, Go and Rust, mutation testing, property-based testing, BDD, and CLI tool tests.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "unit-tests",
+    "mutation-testing",
+    "property-based-testing",
+    "bdd",
+    "cli"
+  ]
+}

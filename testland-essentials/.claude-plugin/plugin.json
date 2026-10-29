@@ -1,0 +1,22 @@
+{
+  "name": "testland-essentials",
+  "displayName": "Testland Essentials",
+  "version": "1.0.1",
+  "description": "Core QA workflow for any team: test strategy and planning, test data and environments, test review against conventions, test reports and CI results, CI integration, and flaky-test triage.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "test-strategy",
+    "test-data",
+    "flaky-tests",
+    "test-review",
+    "ci"
+  ]
+}

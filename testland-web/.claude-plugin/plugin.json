@@ -1,0 +1,23 @@
+{
+  "name": "testland-web",
+  "displayName": "Testland Web",
+  "version": "1.0.1",
+  "description": "Testing web front ends: browser end-to-end tests, visual regression, accessibility, localization, PDF and print output, browser extensions, and progressive web apps.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "web",
+    "e2e",
+    "playwright",
+    "visual-regression",
+    "accessibility",
+    "pwa"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "testland-leadership",
+  "displayName": "Testland Leadership",
+  "version": "1.0.1",
+  "description": "Quality leadership and planning: QA team management and reporting, test impact analysis, code-quality gates, and shift-left reviews of specs and designs.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "quality-engineering",
+    "test-impact-analysis",
+    "code-quality",
+    "shift-left",
+    "qa-management"
+  ]
+}

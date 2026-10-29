@@ -1,0 +1,22 @@
+{
+  "name": "testland-performance",
+  "displayName": "Testland Performance",
+  "version": "1.0.1",
+  "description": "Performance, resilience and production checks: load testing, chaos and resilience drills, synthetic monitors, canary validation, and release runbooks.",
+  "author": {
+    "name": "Testland",
+    "url": "https://testland.io/"
+  },
+  "homepage": "https://testland.io",
+  "repository": "https://github.com/testland/qa-skills",
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "testing",
+    "load-testing",
+    "performance",
+    "resilience",
+    "chaos",
+    "canary"
+  ]
+}
