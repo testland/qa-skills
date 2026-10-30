@@ -44,7 +44,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [pitest-mutation](skills/pitest-mutation/SKILL.md) | Use when a Java or Kotlin test suite needs mutation testing. |
 | [stryker-mutation](skills/stryker-mutation/SKILL.md) | Use when a JavaScript or TypeScript suite has high coverage but bugs still slip through, and the team wants mutation testing to find weak tests. |
 | [stryker-net-mutation](skills/stryker-net-mutation/SKILL.md) | Use when a .NET (C#) test suite needs mutation testing to show whether the tests catch bugs. |
-| [fast-check-testing](skills/fast-check-testing/SKILL.md) | Authors property-based tests in JavaScript / TypeScript using fast-check - wires `fc.assert(fc.property(arbitrary, ...))`, picks arbitraries (`fc.integer`, `fc… |
+| [fast-check-testing](skills/fast-check-testing/SKILL.md) | Use whenever the task mentions property-based, generative or invariant tests in JavaScript or TypeScript (fast-check): fc.assert and fc.property, arbitraries a… |
 | [hypothesis-testing](skills/hypothesis-testing/SKILL.md) | Use whenever the task mentions property-based, generative or invariant tests in Python (Hypothesis), e.g. |
 | [jqwik-testing](skills/jqwik-testing/SKILL.md) | Use when a Java or Kotlin project needs property-based tests: invariants, round-trip properties or edge cases example tests miss. |
 | [proptest-testing](skills/proptest-testing/SKILL.md) | Use when a Rust project needs property-based tests, especially for parsers, serializers and functions with structured input. |
