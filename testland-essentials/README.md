@@ -61,7 +61,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [negative-test-generator](skills/negative-test-generator/SKILL.md) | Use when code has deliberate error paths but the tests only prove the success case. |
 | [pairwise-test-case-generator](skills/pairwise-test-case-generator/SKILL.md) | Use when a function or endpoint takes 3 or more inputs whose combinations matter and the full Cartesian product is too large. |
 | [seed-data-curator](skills/seed-data-curator/SKILL.md) | Use when E2E tests need a reproducible seed dataset and the project has none, or the existing seed has drifted. |
-| [synthetic-data-toolkit](skills/synthetic-data-toolkit/SKILL.md) | Use when tests need typed factories beyond plain Faker values: FactoryBot for Ruby (traits, associations), Mimesis for Python bulk data, Bogus for .NET Faker<T… |
+| [synthetic-data-toolkit](skills/synthetic-data-toolkit/SKILL.md) | Use whenever someone asks for test factories or a FactoryBot setup, even a quick one: factories with traits and associations (Ruby, Rails), Mimesis bulk data (… |
 | [synthetic-pii-generator](skills/synthetic-pii-generator/SKILL.md) | Use when seeding non-production environments, building demo data, or replacing real personal data in copied datasets. |
 | [test-data-patterns](skills/test-data-patterns/SKILL.md) | Use when choosing how a test suite builds its test data, or when fixtures have drifted into shared mutable state. |
 | [wiremock-stubs](skills/wiremock-stubs/SKILL.md) | Use whenever Java/JVM tests call a slow, flaky, rate-limited or paid HTTP API: stub it with WireMock so tests run offline, including faults such as timeouts an… |
@@ -76,12 +76,12 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [coverage-diff-reporter](skills/coverage-diff-reporter/SKILL.md) | Use when a pull request needs readable coverage feedback rather than one total. |
 | [coverage-py-analysis](skills/coverage-py-analysis/SKILL.md) | Use when a Python project (pytest or unittest) needs code coverage: coverage run, branch coverage, combining parallel xdist data, .coveragerc source, omit and… |
 | [currents-integration](skills/currents-integration/SKILL.md) | Use when a Playwright suite needs hosted analytics across runs: flakiness over time, slowest tests and pass-rate trends. |
-| [jacoco-analysis](skills/jacoco-analysis/SKILL.md) | Use when a Java, Kotlin, Scala or Groovy build (Maven or Gradle) needs code coverage. |
+| [jacoco-analysis](skills/jacoco-analysis/SKILL.md) | Use whenever a Java, Kotlin, Scala or Groovy project on Gradle or Maven needs code coverage or a coverage gate: JaCoCo agent setup, HTML, XML and CSV reports,… |
 | [junit-xml-analysis](skills/junit-xml-analysis/SKILL.md) | Explains CI test numbers that disagree with what the suite actually did - a 'slowest tests' list dominated by the wrong suite, a release gate or dashboard read… |
 | [lcov-analysis](skills/lcov-analysis/SKILL.md) | Use when a coverage gate must work across languages from LCOV .info or Cobertura XML files (gcov, llvm-cov, coverage.py, JaCoCo, Jest, nyc, coverlet). |
 | [test-coverage-targeter](skills/test-coverage-targeter/SKILL.md) | Use when a team can write only a handful of new tests and must pick which uncovered code matters most, or when some modules lose coverage while the total looks… |
 | [test-management-sync](skills/test-management-sync/SKILL.md) | Use when CI test results must flow into TestRail, Xray for Jira or Zephyr Scale without manual copying. |
-| [test-run-summary-author](skills/test-run-summary-author/SKILL.md) | Use when a release note, status update or stand-up post needs a readable summary of one test run. |
+| [test-run-summary-author](skills/test-run-summary-author/SKILL.md) | Use whenever someone asks to write a test-run summary, release test status or Slack post from test results, even from a few numbers: pass, fail and skip counts… |
 | [ci-test-job-conventions](skills/ci-test-job-conventions/SKILL.md) | Use when designing how tests run in CI on any platform (GitHub Actions, GitLab CI, Jenkins, CircleCI): how many shards, which failures are safe to retry, quara… |
 | [github-actions-test-jobs](skills/github-actions-test-jobs/SKILL.md) | Use whenever the task is to run tests in GitHub Actions: a test workflow on pull requests, matrix builds across OS and runtime versions, splitting a suite acro… |
 | [gitlab-ci-test-jobs](skills/gitlab-ci-test-jobs/SKILL.md) | Use whenever the task is to run tests in GitLab CI/CD: test stages in .gitlab-ci.yml, parallel matrix jobs, junit and coverage artifact reports, Postgres or Re… |

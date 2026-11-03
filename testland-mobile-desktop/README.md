@@ -32,7 +32,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Skill | What it does |
 | --- | --- |
-| [appium-testing](skills/appium-testing/SKILL.md) | Use when a mobile UI suite fails, flakes or runs on only one platform, an Appium upgrade breaks sessions, or one suite must cover iOS and Android: Appium drive… |
+| [appium-testing](skills/appium-testing/SKILL.md) | Use whenever one mobile UI test suite must run on iOS and Android (native or React Native apps), or an Appium suite fails, flakes or breaks after an upgrade: X… |
 | [detox-testing](skills/detox-testing/SKILL.md) | Use whenever a React Native app needs end-to-end tests with Detox: gray-box runs inside the app, by.id, by.text and by.label matchers, waitFor for extra sync,… |
 | [espresso-suite](skills/espresso-suite/SKILL.md) | Use whenever an Android app needs UI tests in Google's Espresso: onView with perform and check, automatic synchronization instead of sleeps, IdlingResource for… |
 | [flutter-testing](skills/flutter-testing/SKILL.md) | Use whenever a Flutter app needs tests: unit tests with flutter test, widget tests with testWidgets and WidgetTester, integration_test on simulators, emulators… |

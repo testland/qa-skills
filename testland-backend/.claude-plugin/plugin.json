@@ -1,7 +1,7 @@
 {
   "name": "testland-backend",
   "displayName": "Testland Backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Testing backend and distributed systems: async jobs and queues, caches, concurrency and race conditions, database migrations, distributed tracing, feature flags and experiments, sagas and CQRS, serverless functions, and time and timezones.",
   "author": {
     "name": "Testland",

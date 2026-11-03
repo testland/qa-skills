@@ -1,7 +1,7 @@
 {
   "name": "testland-essentials",
   "displayName": "Testland Essentials",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Core QA workflow for any team: test strategy and planning, test data and environments, test review against conventions, test reports and CI results, CI integration, and flaky-test triage.",
   "author": {
     "name": "Testland",
