@@ -1,7 +1,7 @@
 {
   "name": "testland-unit-testing",
   "displayName": "Testland Unit Testing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unit and code-level testing: unit tests for JavaScript and TypeScript, Python, JVM, .NET, Go and Rust, mutation testing, property-based testing, BDD, and CLI tool tests.",
   "author": {
     "name": "Testland",

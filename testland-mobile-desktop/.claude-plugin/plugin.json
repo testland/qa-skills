@@ -1,7 +1,7 @@
 {
   "name": "testland-mobile-desktop",
   "displayName": "Testland Mobile and Desktop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Testing native apps and devices: iOS and Android, desktop apps, embedded and hardware-in-the-loop systems, and games.",
   "author": {
     "name": "Testland",

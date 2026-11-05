@@ -35,10 +35,10 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | --- | --- |
 | [browser-matrix-strategy-reference](skills/browser-matrix-strategy-reference/SKILL.md) | Use when deciding which browsers, OS versions and devices to test: a three-tier matrix built from traffic data, quarterly re-tier reviews, a published support… |
 | [cloud-grid-e2e](skills/cloud-grid-e2e/SKILL.md) | Use when E2E tests must run on real browsers and devices in BrowserStack Automate, Sauce Labs or LambdaTest: credentials, the WebDriver hub URL and vendor capa… |
-| [cypress-testing](skills/cypress-testing/SKILL.md) | Use whenever a project writes or fixes Cypress E2E tests: install and cypress.config.ts, cy command chains, replacing cy.wait sleeps with assertions, cy.sessio… |
+| [cypress-testing](skills/cypress-testing/SKILL.md) | Use whenever a project writes, fixes or upgrades Cypress E2E tests: cypress.config.ts, replacing cy.wait sleeps with assertions, cy.intercept network stubs, fi… |
 | [playwright-testing](skills/playwright-testing/SKILL.md) | Use whenever the task is to write, fix or speed up Playwright tests, even one quick test or a flaky one: role-based locators, web-first assertions instead of w… |
 | [selenium-grid-4-runner](skills/selenium-grid-4-runner/SKILL.md) | Use when cross-browser tests must run on a self-hosted Selenium Grid 4 for data residency or cost: standalone or hub-and-node, the Docker images, node registra… |
-| [selenium-testing](skills/selenium-testing/SKILL.md) | Use when a project is already on Selenium WebDriver and needs tests written or maintained in Java, Python, JavaScript, C#, Ruby, Kotlin or PHP: drivers per bro… |
+| [selenium-testing](skills/selenium-testing/SKILL.md) | Use when a project is already on Selenium WebDriver and needs tests written, fixed or upgraded in Java, Python, C# or other bindings: Selenium Manager drivers,… |
 | [web-e2e-overview](skills/web-e2e-overview/SKILL.md) | Use when a web app has no E2E tests yet, a team is choosing or replacing an E2E framework, or a first browser test must go green. |
 | [webdriverio-testing](skills/webdriverio-testing/SKILL.md) | Use when a team needs WebdriverIO E2E tests: npm init wdio scaffolding, services for Sauce Labs, BrowserStack, Appium and DevTools, spec, Allure and JUnit repo… |
 | [chart-render-tests](skills/chart-render-tests/SKILL.md) | Use when a dashboard renders charts that need regression tests, before a chart library upgrade or after a theme change. |
