@@ -36,13 +36,13 @@
       "name": "testland-web",
       "source": "./testland-web",
       "description": "Testing web front ends: browser end-to-end tests, visual regression, accessibility, localization, PDF and print output, browser extensions, and progressive web apps.",
-      "version": "1.0.3"
+      "version": "1.1.0"
     },
     {
       "name": "testland-unit-testing",
       "source": "./testland-unit-testing",
       "description": "Unit and code-level testing: unit tests for JavaScript and TypeScript, Python, JVM, .NET, Go and Rust, mutation testing, property-based testing, BDD, and CLI tool tests.",
-      "version": "1.0.3"
+      "version": "1.1.1"
     },
     {
       "name": "testland-ai",

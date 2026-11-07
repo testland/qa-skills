@@ -1,7 +1,7 @@
 {
   "name": "testland-web",
   "displayName": "Testland Web",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Testing web front ends: browser end-to-end tests, visual regression, accessibility, localization, PDF and print output, browser extensions, and progressive web apps.",
   "author": {
     "name": "Testland",

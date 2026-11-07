@@ -2,7 +2,7 @@
 
 Unit and code-level testing: unit tests for JavaScript and TypeScript, Python, JVM, .NET, Go and Rust, mutation testing, property-based testing, BDD, and CLI tool tests.
 
-27 skills and 4 agents, part of [Testland](https://testland.io).
+28 skills and 4 agents, part of [Testland](https://testland.io).
 
 ## Install
 
@@ -31,6 +31,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Skill | What it does |
 | --- | --- |
+| [red-green-refactor](skills/red-green-refactor/SKILL.md) | Use before fixing a bug or adding a feature in any language, even a one-line fix: reproduce it with a failing test first, watch it fail for the right reason, m… |
 | [js-unit-tests](skills/js-unit-tests/SKILL.md) | Sets up and repairs JavaScript / TypeScript unit tests - a suite that cannot resolve the project's path aliases (`@lib/...` declared in jsconfig or tsconfig),… |
 | [pytest-asyncio-patterns](skills/pytest-asyncio-patterns/SKILL.md) | Configures and runs async Python tests with pytest-asyncio: installs the plugin, selects asyncio_mode (auto vs strict), scopes event loops (function/class/modu… |
 | [python-unit-tests](skills/python-unit-tests/SKILL.md) | Use whenever the task is to write, add, fix or review Python tests, even quick pytest tests for a single function: edge cases, fixtures and conftest.py, parame… |
@@ -74,4 +75,4 @@ The pack is instructions only: Markdown skills and agents with example code. Ins
 
 ## Source
 
-Generated from [testland/qa](https://github.com/testland/qa) (plugins: qa-unit-tests-js, qa-unit-tests-python, qa-unit-tests-jvm, qa-unit-tests-net, qa-unit-tests-go-rust, qa-mutation-testing, qa-property-based, qa-bdd, qa-cli-tools). Report issues and send changes there. MIT licensed.
+Generated from [testland/qa](https://github.com/testland/qa) (plugins: qa-tdd, qa-unit-tests-js, qa-unit-tests-python, qa-unit-tests-jvm, qa-unit-tests-net, qa-unit-tests-go-rust, qa-mutation-testing, qa-property-based, qa-bdd, qa-cli-tools). Report issues and send changes there. MIT licensed.
