@@ -53,11 +53,11 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [test-effort-estimation](skills/test-effort-estimation/SKILL.md) | Use when an epic or release is split into testable areas and someone must commit test capacity. |
 | [test-pyramid-balancer](skills/test-pyramid-balancer/SKILL.md) | Use when asked about test distribution or balance: too many E2E tests, slow CI caused by tests, or rebalancing a suite. |
 | [test-strategy-author](skills/test-strategy-author/SKILL.md) | Use when a project, release or feature needs a test strategy or master test plan that stakeholders sign off: scope, test types per layer, risk-based prioritiza… |
-| [boundary-value-generator](skills/boundary-value-generator/SKILL.md) | Generates boundary-value test cases from typed input specifications - for each input field, produces the canonical 6-point set (one below, at, and above the lo… |
+| [boundary-value-generator](skills/boundary-value-generator/SKILL.md) | Use when writing or extending tests for a function, form field or endpoint with limits (min/max values, string length in characters or bytes, collection size),… |
 | [faker-data](skills/faker-data/SKILL.md) | Fixes test data that breaks tests - factory values in a shape the code under test rejects (a phone number that is not E.164), fixtures that only pass when the… |
-| [golden-file-conventions](skills/golden-file-conventions/SKILL.md) | Reference catalog for snapshot / golden file management - naming conventions, directory layout, when to add / update / remove a baseline, sanitization (timesta… |
+| [golden-file-conventions](skills/golden-file-conventions/SKILL.md) | Use when snapshot or golden-file tests are noisy or untrusted: snapshots accepted without review, diffs full of timestamps, IDs or PII, baselines that differ p… |
 | [malicious-payload-bank](skills/malicious-payload-bank/SKILL.md) | Use when writing negative tests for input validation, fuzz targets or security tests that need real attack strings: SQL injection, XSS, SSRF, path traversal, c… |
-| [msw-handlers](skills/msw-handlers/SKILL.md) | Authors Mock Service Worker (MSW) request handlers for both browser and Node.js test environments using the `http.get` / `http.post` / `HttpResponse.json` API,… |
+| [msw-handlers](skills/msw-handlers/SKILL.md) | Use when JavaScript or TypeScript tests need to mock fetch or XHR calls to an HTTP API, such as replacing hand-rolled fetch mocks or testing loading and error… |
 | [negative-test-generator](skills/negative-test-generator/SKILL.md) | Use when code has deliberate error paths but the tests only prove the success case. |
 | [pairwise-test-case-generator](skills/pairwise-test-case-generator/SKILL.md) | Use when a function or endpoint takes 3 or more inputs whose combinations matter and the full Cartesian product is too large. |
 | [seed-data-curator](skills/seed-data-curator/SKILL.md) | Use when E2E tests need a reproducible seed dataset and the project has none, or the existing seed has drifted. |
@@ -88,12 +88,12 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [jenkinsfile-test-stages](skills/jenkinsfile-test-stages/SKILL.md) | Use whenever the task is to run tests in Jenkins: declarative Jenkinsfile test stages, parallel stages across agents, post always/failure actions, JUnit report… |
 | [flake-axis-bisection](skills/flake-axis-bisection/SKILL.md) | Use when one test is known to fail intermittently and reading its code has not explained why. |
 | [flake-dashboard-author](skills/flake-dashboard-author/SKILL.md) | Use when a team needs a lasting view of test reliability from CI history (JUnit XML or JSON): a flake-rate metric, a Grafana panel or Datadog CI Visibility vie… |
-| [flake-pattern-reference](skills/flake-pattern-reference/SKILL.md) | Reference catalog of the eight flake patterns - async/timing, test ordering, shared parallel state, resource leaks, network, locator drift, environment varianc… |
+| [flake-pattern-reference](skills/flake-pattern-reference/SKILL.md) | Use when a test fails only some of the time and a re-run goes green: only in CI and never on a laptop, only at night or in another time zone, only when test fi… |
 | [flaky-test-quarantine](skills/flaky-test-quarantine/SKILL.md) | Builds a quarantine workflow for flaky tests - marks the test with the framework's skip/fixme/retry annotation, records the failure-rate observation and a bise… |
 | [docker-compose-tests](skills/docker-compose-tests/SKILL.md) | Use when tests need the app plus several real services (database, cache, queue) started together. |
 | [feature-flag-test-harness](skills/feature-flag-test-harness/SKILL.md) | Use when a feature behind a flag must be tested both on and off, or several flags interact. |
 | [playwright-fixture-builder](skills/playwright-fixture-builder/SKILL.md) | Use when a Playwright suite has copy-pasted beforeEach setup that should be a fixture, or needs shared login, database or feature-flag setup across many specs. |
-| [testcontainers](skills/testcontainers/SKILL.md) | Brings up real backing services (databases, message brokers, browsers, anything dockerizable) as throwaway containers from inside a test process - Java, Node.j… |
+| [testcontainers](skills/testcontainers/SKILL.md) | Use when integration tests need a real database, message broker or browser (Postgres, Redis, Kafka, Selenium) in a container, or when containerized tests are f… |
 
 ## Agents
 

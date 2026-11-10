@@ -32,8 +32,8 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | Skill | What it does |
 | --- | --- |
 | [red-green-refactor](skills/red-green-refactor/SKILL.md) | Use before fixing a bug or adding a feature in any language, even a one-line fix: reproduce it with a failing test first, watch it fail for the right reason, m… |
-| [js-unit-tests](skills/js-unit-tests/SKILL.md) | Sets up and repairs JavaScript / TypeScript unit tests - a suite that cannot resolve the project's path aliases (`@lib/...` declared in jsconfig or tsconfig),… |
-| [pytest-asyncio-patterns](skills/pytest-asyncio-patterns/SKILL.md) | Configures and runs async Python tests with pytest-asyncio: installs the plugin, selects asyncio_mode (auto vs strict), scopes event loops (function/class/modu… |
+| [js-unit-tests](skills/js-unit-tests/SKILL.md) | Use when writing, configuring or fixing JavaScript or TypeScript unit tests with Jest or Vitest: a suite that cannot resolve path aliases (`@lib/...` from jsco… |
+| [pytest-asyncio-patterns](skills/pytest-asyncio-patterns/SKILL.md) | Use when async Python tests are skipped or fail with event-loop errors, or when testing FastAPI or aiohttp endpoints: configures pytest-asyncio (asyncio_mode a… |
 | [python-unit-tests](skills/python-unit-tests/SKILL.md) | Use whenever the task is to write, add, fix or review Python tests, even quick pytest tests for a single function: edge cases, fixtures and conftest.py, parame… |
 | [jvm-unit-tests](skills/jvm-unit-tests/SKILL.md) | Use whenever the task is to write, add, fix or review JVM unit tests in Java, Kotlin, Scala or Groovy: JUnit 6 (Jupiter) by default and JUnit 5 upgrades, plus… |
 | [dotnet-unit-tests](skills/dotnet-unit-tests/SKILL.md) | Use whenever the task is to write, add, fix or review .NET unit tests in C#, F# or VB.NET, even a quick test for one method: xUnit.net by default, plus NUnit a… |
@@ -51,7 +51,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [proptest-testing](skills/proptest-testing/SKILL.md) | Use when a Rust project needs property-based tests, especially for parsers, serializers and functions with structured input. |
 | [bdd-step-library-curator](skills/bdd-step-library-curator/SKILL.md) | Use when a Cucumber, Behave or Reqnroll project has grown past ~50 step definitions, before writing a step that may already exist, or when new .feature files n… |
 | [behave-testing](skills/behave-testing/SKILL.md) | Use when a Python project wants BDD scenarios with Behave: Gherkin .feature files, step implementations in features/steps, environment.py hooks, tags and behav… |
-| [cucumber-testing](skills/cucumber-testing/SKILL.md) | Configures Cucumber for BDD scenarios - Cucumber-JVM (Java/Kotlin via JUnit 5), Cucumber-JS (Node), Cucumber-Ruby. |
+| [cucumber-testing](skills/cucumber-testing/SKILL.md) | Use when writing or fixing BDD tests in Gherkin: `.feature` files, Given/When/Then steps, undefined or ambiguous step definitions, or wiring Cucumber into a Ja… |
 | [gherkin-from-stories](skills/gherkin-from-stories/SKILL.md) | Use whenever user stories, acceptance criteria, manual test steps or a spec section need to become Gherkin .feature files. |
 | [living-documentation-publisher](skills/living-documentation-publisher/SKILL.md) | Use when BDD scenarios pass in CI and stakeholders need an always-current, readable report of which acceptance criteria pass. |
 | [reqnroll-testing](skills/reqnroll-testing/SKILL.md) | Use when a .NET project starts BDD, migrates from SpecFlow (end-of-life 2024-12-31) or maintains a legacy SpecFlow suite. |

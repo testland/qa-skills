@@ -12,7 +12,7 @@
       "name": "testland-essentials",
       "source": "./testland-essentials",
       "description": "Core QA workflow for any team: test strategy and planning, test data and environments, test review against conventions, test reports and CI results, CI integration, and flaky-test triage.",
-      "version": "1.0.4"
+      "version": "1.0.6"
     },
     {
       "name": "testland-backend",
@@ -42,7 +42,7 @@
       "name": "testland-unit-testing",
       "source": "./testland-unit-testing",
       "description": "Unit and code-level testing: unit tests for JavaScript and TypeScript, Python, JVM, .NET, Go and Rust, mutation testing, property-based testing, BDD, and CLI tool tests.",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
     {
       "name": "testland-ai",
@@ -66,7 +66,7 @@
       "name": "testland-manual-testing",
       "source": "./testland-manual-testing",
       "description": "Manual and exploratory testing: test design techniques, exploratory charters and sessions, bug reproduction and reports, defect tracking, and test case management.",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "name": "testland-leadership",
