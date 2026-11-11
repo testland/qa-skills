@@ -7,11 +7,11 @@
 [![skills](https://img.shields.io/badge/skills-329-5fbfff.svg)](#packs)
 [![built from testland/qa](https://img.shields.io/badge/built%20from-testland%2Fqa-555.svg)](https://github.com/testland/qa)
 [![testland.io](https://img.shields.io/badge/web-testland.io-5fbfff.svg)](https://testland.io/plugins)
-[![backed up by Cloudback](https://img.shields.io/badge/backed%20up%20by-Cloudback-5fbfff.svg)](https://cloudback.it)
+[![Cloudback backup status](https://app.cloudback.it/badge/testland/qa-skills)](https://cloudback.it)
 
 Skills and agents for software testing and quality engineering, packaged as 11 Claude plugins. Each skill is in exactly one pack, so installing several packs never loads a skill twice.
 
-This repository is generated from [testland/qa](https://github.com/testland/qa) on every release. Please star, open issues and send pull requests there; changes made here are overwritten.
+This repository is generated from [testland/qa](https://github.com/testland/qa) on every release. Please star it there, and see [Contributing](#contributing) to report a problem or change a skill.
 
 ## Install
 
@@ -51,5 +51,13 @@ This repository is generated from [testland/qa](https://github.com/testland/qa) 
 | AI and ML | testland-essentials + testland-ai |
 | Manual tester | testland-essentials + testland-manual-testing |
 | Leadership | testland-essentials + testland-leadership + testland-manual-testing |
+
+## Contributing
+
+This repository is generated from [testland/qa](https://github.com/testland/qa) on every release, so it does not take issues or pull requests, and changes made here are overwritten. All work happens in testland/qa:
+
+- **Report a bug or ask for a skill:** [open an issue in testland/qa](https://github.com/testland/qa/issues/new/choose).
+- **Fix or improve a skill or agent:** edit it under `plugins/<plugin>/` in testland/qa and open a pull request there. Each pack's README names the plugins it is built from, and [the contributing guide](https://github.com/testland/qa/blob/main/docs/CONTRIBUTING.md) explains the review every change goes through.
+- **Report a security problem:** use [private vulnerability reporting in testland/qa](https://github.com/testland/qa/security/advisories/new), not a public issue.
 
 More at [testland.io](https://testland.io). MIT licensed.
