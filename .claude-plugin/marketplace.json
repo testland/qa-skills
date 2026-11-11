@@ -24,7 +24,7 @@
       "name": "testland-api",
       "source": "./testland-api",
       "description": "Testing APIs and integrations: REST API tests, consumer-driven contracts, GraphQL, gRPC, auth flows (OAuth, OIDC, Keycloak, Auth0, Okta), real-time protocols, email and push notifications, and payment flows.",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     {
       "name": "testland-security",
@@ -36,7 +36,7 @@
       "name": "testland-web",
       "source": "./testland-web",
       "description": "Testing web front ends: browser end-to-end tests, visual regression, accessibility, localization, PDF and print output, browser extensions, and progressive web apps.",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "testland-unit-testing",
