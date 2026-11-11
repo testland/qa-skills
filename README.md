@@ -2,6 +2,13 @@
 
 # Testland QA skills
 
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![packs](https://img.shields.io/badge/packs-11-5fbfff.svg)](#packs)
+[![skills](https://img.shields.io/badge/skills-329-5fbfff.svg)](#packs)
+[![built from testland/qa](https://img.shields.io/badge/built%20from-testland%2Fqa-555.svg)](https://github.com/testland/qa)
+[![testland.io](https://img.shields.io/badge/web-testland.io-5fbfff.svg)](https://testland.io/plugins)
+[![backed up by Cloudback](https://img.shields.io/badge/backed%20up%20by-Cloudback-5fbfff.svg)](https://cloudback.it)
+
 Skills and agents for software testing and quality engineering, packaged as 11 Claude plugins. Each skill is in exactly one pack, so installing several packs never loads a skill twice.
 
 This repository is generated from [testland/qa](https://github.com/testland/qa) on every release. Please star, open issues and send pull requests there; changes made here are overwritten.
