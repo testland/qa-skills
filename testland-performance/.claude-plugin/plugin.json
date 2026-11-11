@@ -1,7 +1,7 @@
 {
   "name": "testland-performance",
   "displayName": "Testland Performance",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Performance, resilience and production checks: load testing, chaos and resilience drills, synthetic monitors, canary validation, and release runbooks.",
   "author": {
     "name": "Testland",

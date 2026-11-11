@@ -47,16 +47,16 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [deadlock-detection-harness](skills/deadlock-detection-harness/SKILL.md) | Use when a service that takes two or more locks hangs in production with no error, or before a release when lock order across code paths was never checked. |
 | [mvcc-isolation-tests](skills/mvcc-isolation-tests/SKILL.md) | Use when two concurrent database transactions can touch the same rows (balance debits, seat bookings, stock counts), or before changing a default isolation lev… |
 | [race-condition-test-author](skills/race-condition-test-author/SKILL.md) | Use when a bug only appears under load on shared in-process state (cache, counter, pool, lazy singleton), or a race needs a regression test before the fix. |
-| [atlas-migrations](skills/atlas-migrations/SKILL.md) | Use when a team wants declarative, Terraform-style database schema management or migration linting beyond Flyway and Liquibase: Atlas schema apply, migrate dif… |
-| [flyway-migrations](skills/flyway-migrations/SKILL.md) | Use whenever a schema is managed with Flyway: versioned, repeatable and undo migration files, migrate, info, validate, baseline and repair, the schema history… |
-| [liquibase-migrations](skills/liquibase-migrations/SKILL.md) | Use whenever a schema is managed with Liquibase: changelogs and changesets in XML, YAML, JSON or SQL, update, status, rollback and tag, preconditions, contexts… |
-| [migration-operation-taxonomy](skills/migration-operation-taxonomy/SKILL.md) | Use whenever someone asks if a database migration is safe to run in production: rename or drop a column, add NOT NULL or a default, add an index or foreign key… |
+| [atlas-migrations](skills/atlas-migrations/SKILL.md) | Use for any question or task about Atlas or declarative, Terraform-style database schema management, including how it compares with Flyway and Liquibase: Atlas… |
+| [flyway-migrations](skills/flyway-migrations/SKILL.md) | Use for any question or task about Flyway, including errors such as a checksum mismatch, a failed validate or an edited old migration: versioned, repeatable an… |
+| [liquibase-migrations](skills/liquibase-migrations/SKILL.md) | Use for any question or task about Liquibase, including quick ones such as rolling back a changeset or adding a rollback block: changelogs and changesets in XM… |
+| [migration-operation-taxonomy](skills/migration-operation-taxonomy/SKILL.md) | Use for any question about whether a database migration is safe to run in production, including quick ones (is adding a NOT NULL column to a big Postgres table… |
 | [jaeger-trace-tests](skills/jaeger-trace-tests/SKILL.md) | Use when tests must prove a request produces the expected spans across services in a running Jaeger, Zipkin or Grafana Tempo backend. |
 | [opentelemetry-trace-assertions](skills/opentelemetry-trace-assertions/SKILL.md) | Use when a service is instrumented with OpenTelemetry and alerts, SLOs or dashboards depend on span names or attributes a refactor could drop. |
 | [otel-collector-config-tester](skills/otel-collector-config-tester/SKILL.md) | Use when an OpenTelemetry Collector config changes (a new receiver, processor or exporter) and must be verified before deploy. |
 | [trace-spec-author](skills/trace-spec-author/SKILL.md) | Use before instrumenting a new feature, when spans have grown with no agreed shape, or after an incident where debugging stalled on missing attributes. |
 | [ab-test-validity-checklist](skills/ab-test-validity-checklist/SKILL.md) | Use when launching, auditing or governing an A/B test or online experiment design. |
-| [experiment-results-interpreter](skills/experiment-results-interpreter/SKILL.md) | Use when an A/B test result is read for a ship decision, especially off a dashboard, a small sample or many metrics. |
+| [experiment-results-interpreter](skills/experiment-results-interpreter/SKILL.md) | Use for any question about reading an A/B test or experiment result, including quick ones: is it significant, should we ship variant B, why a week-one win fade… |
 | [experiment-sdk-testing](skills/experiment-sdk-testing/SKILL.md) | Use when code instrumented with Statsig, Optimizely, Split.io (Harness FME), Amplitude Experiment or VWO needs tests. |
 | [launchdarkly-testing](skills/launchdarkly-testing/SKILL.md) | Use whenever code that reads LaunchDarkly feature flags needs tests: the TestData source for hermetic tests with no network, file-based fixtures, per-test flag… |
 | [openfeature-sdk-testing](skills/openfeature-sdk-testing/SKILL.md) | Use whenever code that reads feature flags through OpenFeature, Unleash, Flagsmith or GrowthBook needs tests: InMemoryProvider for hermetic tests, evaluation d… |
@@ -67,9 +67,9 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [azure-functions-tests](skills/azure-functions-tests/SKILL.md) | Use when Azure Functions need testing before deploy: running them locally with Core Tools v4 and Azurite, unit tests for .NET isolated, Node v4 and Python v2 h… |
 | [cloudflare-workers-miniflare](skills/cloudflare-workers-miniflare/SKILL.md) | Use when Cloudflare Workers code needs tests locally: Miniflare 3 (workerd-backed), wrangler dev, emulated KV, Durable Objects, R2 and D1 bindings, and in-proc… |
 | [serverless-integration-test-builder](skills/serverless-integration-test-builder/SKILL.md) | Use when a serverless project (SAM, serverless.yml, Wrangler, Vercel or Netlify functions) has no integration tests yet. |
-| [dst-transition-reference](skills/dst-transition-reference/SKILL.md) | Use when designing or auditing time-handling code or its tests around daylight saving time: skipped and repeated hours, jurisdiction differences, the IANA tz d… |
+| [dst-transition-reference](skills/dst-transition-reference/SKILL.md) | Use for any question or task about daylight saving time in code or tests, including quick ones: what breaks on DST transition days, naive datetimes plus a dura… |
 | [fake-clock-testing](skills/fake-clock-testing/SKILL.md) | Fake clocks / freeze time in tests across every mainstream runtime: freezegun (Python), Jest fake timers + Sinon @sinonjs/fake-timers (JS/TS), timecop (Ruby),… |
-| [timezone-test-matrix-builder](skills/timezone-test-matrix-builder/SKILL.md) | Use when a codebase needs time zone, DST and leap-year test coverage derived from its own date and time code. |
+| [timezone-test-matrix-builder](skills/timezone-test-matrix-builder/SKILL.md) | Use for any question or task about which time zones, DST dates and leap-year cases to test, including bugs such as dates shown a day early or late for users in… |
 
 ## Agents
 

@@ -1,7 +1,7 @@
 {
   "name": "testland-leadership",
   "displayName": "Testland Leadership",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quality leadership and planning: QA team management and reporting, test impact analysis, code-quality gates, and shift-left reviews of specs and designs.",
   "author": {
     "name": "Testland",

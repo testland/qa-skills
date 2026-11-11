@@ -38,14 +38,14 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [exploratory-testing](skills/exploratory-testing/SKILL.md) | Plans and runs time-boxed exploratory testing when tester hours are scarce before a release - one tester with two free 45-minute blocks before code freeze, a h… |
 | [manual-test-script-author](skills/manual-test-script-author/SKILL.md) | Use when a feature can't or shouldn't be fully automated and a human tester needs a script: UAT sign-off, regression baselines, certification, deploy smoke che… |
 | [state-transition-test-design](skills/state-transition-test-design/SKILL.md) | Derives human-readable manual test cases from stateful behavior: identify states, events, transitions, and guard conditions, draw the state table including inv… |
-| [bug-report-template](skills/bug-report-template/SKILL.md) | Use when someone reports a problem informally, a CI failure (JUnit XML, Allure, pytest or Playwright output) must become a bug report, or a draft needs a quali… |
+| [bug-report-template](skills/bug-report-template/SKILL.md) | Use for any question or task about bug reports, including what makes a good one, turning an informal complaint or a CI failure (JUnit XML, Allure, pytest or Pl… |
 | [ci-failure-triage](skills/ci-failure-triage/SKILL.md) | Decides what kind of failure a red CI test is before anyone starts fixing it. |
 | [defect-escape-taxonomy](skills/defect-escape-taxonomy/SKILL.md) | Use when a defect has been confirmed in production and the team must name which class of gap let it through before deciding what to build. |
-| [bug-tracker-workflow](skills/bug-tracker-workflow/SKILL.md) | Use when defect counts or reports are wrong (missing top-severity bugs, fixed items counted as new, unmerged duplicates) or bug filing and transitions need aut… |
+| [bug-tracker-workflow](skills/bug-tracker-workflow/SKILL.md) | Use for any question or task about a bug tracker workflow in Jira, Linear, GitHub Issues or Azure DevOps, including severity vs priority, filing bugs from fail… |
 | [confirmation-testing-workflow](skills/confirmation-testing-workflow/SKILL.md) | Procedure for proving that a claimed defect fix actually reached the build under test and actually works. |
-| [tcm-case-management](skills/tcm-case-management/SKILL.md) | Use when managing test cases in TestRail, Xray, Zephyr Scale, Allure TestOps or Qase: writing cases from a spec, organizing suites, steps with expected results… |
+| [tcm-case-management](skills/tcm-case-management/SKILL.md) | Use for any question or task about managing test cases in TestRail, Xray, Zephyr Scale, Allure TestOps or Qase, including organizing suites, importing cases fr… |
 | [test-case-anatomy-reference](skills/test-case-anatomy-reference/SKILL.md) | Use when writing a test case template, reviewing a batch of test cases for quality, or migrating cases between tools. |
-| [traceability-matrix-builder](skills/traceability-matrix-builder/SKILL.md) | Use for test coverage audits, finding requirements without tests, sprint-end coverage reviews or compliance documentation. |
+| [traceability-matrix-builder](skills/traceability-matrix-builder/SKILL.md) | Use for any question or task about a traceability matrix or requirements test coverage, including building one from a list of requirements and tests, finding r… |
 
 ## Agents
 

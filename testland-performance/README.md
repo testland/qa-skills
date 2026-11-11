@@ -31,8 +31,8 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Skill | What it does |
 | --- | --- |
-| [db-query-plan-analyzer](skills/db-query-plan-analyzer/SKILL.md) | Use when load tests or production telemetry show the database is the bottleneck. |
-| [flame-graph-analyzer](skills/flame-graph-analyzer/SKILL.md) | Use when a performance regression is traced to a commit but the hot path inside it is unclear. |
+| [db-query-plan-analyzer](skills/db-query-plan-analyzer/SKILL.md) | Use for any question or task about a slow SQL query or a database bottleneck, including how to read EXPLAIN or EXPLAIN ANALYZE output and database CPU that sat… |
+| [flame-graph-analyzer](skills/flame-graph-analyzer/SKILL.md) | Use for any question or task about reading a flame graph or CPU profile, including finding the hot path after a slow release or a regression traced to one comm… |
 | [jmeter-load-testing](skills/jmeter-load-testing/SKILL.md) | Use when a project already uses Apache JMeter or needs JVM-native load testing: .jmx test plans with thread groups, HTTP samplers, assertions and listeners, he… |
 | [k6-load-testing](skills/k6-load-testing/SKILL.md) | Use whenever HTTP, WebSocket or gRPC load tests should be written in JavaScript with k6, or a k6 threshold passes but the system still feels slow: VU scripts w… |
 | [lighthouse-perf](skills/lighthouse-perf/SKILL.md) | Use when a web frontend needs Core Web Vitals (LCP, INP, CLS) checked on every PR, or its first performance budgets drafted. |
@@ -46,7 +46,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [dr-drill-runner](skills/dr-drill-runner/SKILL.md) | Use when a disaster-recovery drill for one service is being planned, run or written up, or a new tier-1 service has no drill. |
 | [error-budget-tests](skills/error-budget-tests/SKILL.md) | Use when an SLO and error budget exist but nothing proves burn-rate alerts fire or the release freeze engages when the budget runs out, or MTTR and MTBF number… |
 | [failure-injection-test-author](skills/failure-injection-test-author/SKILL.md) | Use when one test must reproduce a failure that spans HTTP and network layers, such as an incident nobody can recreate with HTTP stubs or TCP chaos alone. |
-| [toxiproxy-chaos](skills/toxiproxy-chaos/SKILL.md) | Use when tests or dev environments need TCP-level network faults without Kubernetes or paid tools. |
+| [toxiproxy-chaos](skills/toxiproxy-chaos/SKILL.md) | Use for any question or task about simulating network faults such as latency, timeouts or dropped connections in integration tests or dev environments, includi… |
 | [prod-canary-validator](skills/prod-canary-validator/SKILL.md) | Use when a canary deploy needs an automatic promote or rollback decision instead of someone watching dashboards. |
 | [release-runbook-author](skills/release-runbook-author/SKILL.md) | Use when a service is about to ship and its release steps live only in people's heads or a chat thread, or a shared release window needs its cutover order. |
 | [synthetic-monitor-author](skills/synthetic-monitor-author/SKILL.md) | Use when a critical user journey needs continuous checks in production, or monitor coverage was never derived from real usage. |

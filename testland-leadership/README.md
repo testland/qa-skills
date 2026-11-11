@@ -38,8 +38,8 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [regression-suite-selector](skills/regression-suite-selector/SKILL.md) | Use when the regression suite is so large that PR-time CI is the bottleneck. |
 | [test-removal-criteria](skills/test-removal-criteria/SKILL.md) | Use when a suite has outgrown its value and someone is about to delete tests. |
 | [knip-dead-code](skills/knip-dead-code/SKILL.md) | Use after a feature or route is deleted and the project still compiles, or when package.json has dependencies nobody can explain. |
-| [lizard-complexity](skills/lizard-complexity/SKILL.md) | Use when a multi-language codebase needs one complexity gate, or a function has grown unreviewable and CI needs a number. |
-| [madge-deps](skills/madge-deps/SKILL.md) | Use when a JS/TS build compiles but a clearly imported module is undefined at runtime, or CI should block new import cycles. |
+| [lizard-complexity](skills/lizard-complexity/SKILL.md) | Use for any question or task about measuring or limiting code complexity, including cyclomatic complexity across several languages and functions that have grow… |
+| [madge-deps](skills/madge-deps/SKILL.md) | Use for any question or task about circular imports or dependency cycles in JavaScript or TypeScript, including an import that is undefined at runtime even tho… |
 | [sonarqube-maintainability-gate](skills/sonarqube-maintainability-gate/SKILL.md) | Use when a team wants maintainability and technical-debt ratings to gate PRs, or a SonarQube project reports numbers nobody tied to a gate. |
 | [non-functional-requirement-extractor](skills/non-functional-requirement-extractor/SKILL.md) | Use when a PRD, design doc or product brief must be turned into testable non-functional requirements. |
 | [spec-testability-heuristics](skills/spec-testability-heuristics/SKILL.md) | Use when a user story, acceptance criterion, PRD section, API contract or PR description is about to go to implementation and someone needs to know which sente… |

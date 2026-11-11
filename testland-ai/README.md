@@ -31,17 +31,17 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Skill | What it does |
 | --- | --- |
-| [deepeval-evaluation](skills/deepeval-evaluation/SKILL.md) | Use when LLM or RAG evaluation should run as pytest tests: DeepEval LLMTestCase, built-in metrics such as G-Eval, answer relevancy, faithfulness, contextual re… |
-| [giskard-llm](skills/giskard-llm/SKILL.md) | Use when an LLM app needs adversarial or red-team tests on top of functional evals. |
-| [langfuse-tracing](skills/langfuse-tracing/SKILL.md) | Use when an LLM app needs production tracing, monitoring or debugging of model calls, or production traces should feed offline eval datasets. |
-| [llm-eval-anti-patterns](skills/llm-eval-anti-patterns/SKILL.md) | Use when an LLM eval suite already gates a release, model swap or prompt change and nobody has audited how it was built. |
-| [llm-regression-suite-author](skills/llm-regression-suite-author/SKILL.md) | Use when upgrading an LLM model or provider needs a repeatable before/after quality gate, or prompt quality must be tracked across model versions. |
-| [promptfoo-evaluation](skills/promptfoo-evaluation/SKILL.md) | Use when LLM prompts or RAG pipelines need eval-driven regression tests with Promptfoo: promptfooconfig.yaml providers, prompts and tests, deterministic, seman… |
-| [ragas-evaluation](skills/ragas-evaluation/SKILL.md) | Use when a RAG pipeline (retriever plus generator) or an agent needs the widest set of evaluation metrics: Ragas faithfulness, response relevancy, context prec… |
-| [deepchecks-tests](skills/deepchecks-tests/SKILL.md) | Use before training to catch train-test leakage and data integrity problems in tabular, NLP or vision data, and to rerun the same suite on production samples f… |
-| [evidently-monitoring](skills/evidently-monitoring/SKILL.md) | Use when a tabular ML model needs a drift or quality gate in CI, a scheduled monitoring job, or triage of a fired drift alert. |
+| [deepeval-evaluation](skills/deepeval-evaluation/SKILL.md) | Use for any question or task about testing an LLM or RAG app with pytest, including hallucination checks in CI and answers that invent facts missing from the r… |
+| [giskard-llm](skills/giskard-llm/SKILL.md) | Use for any question or task about red-teaming or adversarial testing of an LLM app or chatbot, including prompt injection, system-prompt or data leaks, and ha… |
+| [langfuse-tracing](skills/langfuse-tracing/SKILL.md) | Use for any question or task about tracing, monitoring or debugging LLM calls in production, including having no record of what the model saw for a bad answer,… |
+| [llm-eval-anti-patterns](skills/llm-eval-anti-patterns/SKILL.md) | Use for any question about mistakes in LLM evals or auditing an eval suite that gates a release, model swap or prompt change, including evals that pass while u… |
+| [llm-regression-suite-author](skills/llm-regression-suite-author/SKILL.md) | Use for any question or task about catching LLM quality regressions, including checking a new model version or provider against the old one and prompt tweaks t… |
+| [promptfoo-evaluation](skills/promptfoo-evaluation/SKILL.md) | Use for any question or task about Promptfoo or adding quick regression checks for prompts or RAG pipelines in CI, including turning written requirements into… |
+| [ragas-evaluation](skills/ragas-evaluation/SKILL.md) | Use for any question or task about RAG or agent evaluation metrics, including which metrics to use, scoring an answer against its contexts, and telling retriev… |
+| [deepchecks-tests](skills/deepchecks-tests/SKILL.md) | Use for any question or task about checking ML data before or after training, including train-test leakage, data integrity problems, and models far better offl… |
+| [evidently-monitoring](skills/evidently-monitoring/SKILL.md) | Use for any question or task about data drift or quality monitoring for a production ML model, including a fired drift alert and metrics such as precision that… |
 | [fairlearn-fairness](skills/fairlearn-fairness/SKILL.md) | Use when a model's decisions affect people and an auditor or rule (ECOA, GDPR Art. |
-| [giskard-tests](skills/giskard-tests/SKILL.md) | Use when a trained tabular or NLP model is about to ship with no tests of its own, or a feature or hyperparameter change needs a pre-merge check. |
+| [giskard-tests](skills/giskard-tests/SKILL.md) | Use for any question or task about testing a trained tabular or NLP model before it ships, including robustness to small input changes, data leakage and fairne… |
 | [model-performance-regression-gate](skills/model-performance-regression-gate/SKILL.md) | Use when a retrained ML model is a candidate for promotion and CI must block it if it got worse. |
 | [model-risk-evidence-matrix](skills/model-risk-evidence-matrix/SKILL.md) | Use when an ML model release is up for promotion and someone must decide which fairness and explainability evidence is required, or check the evidence against… |
 | [notebook-ci-pipeline-author](skills/notebook-ci-pipeline-author/SKILL.md) | Use when Jupyter notebooks must run in CI as tests, their outputs must stay stable, or a PR adding notebooks needs review. |
@@ -50,12 +50,12 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 | [judgment-list-author](skills/judgment-list-author/SKILL.md) | Use when a team must create or refresh the human relevance judgments that search tests rely on, before running NDCG, MRR or recall evaluations: query sets, gra… |
 | [vector-search-recall-tests](skills/vector-search-recall-tests/SKILL.md) | Use when HNSW or IVF parameters are being tuned, an embedding model is swapped, or vector search recall was never measured. |
 | [ai-spec-coverage-mapper](skills/ai-spec-coverage-mapper/SKILL.md) | Use when a spec and a test suite both exist but nobody can say which requirements are covered, before a release sign-off, an audit or planning test effort. |
-| [ai-test-generator](skills/ai-test-generator/SKILL.md) | Use when tests should be generated from acceptance criteria, user stories or requirements with an LLM. |
+| [ai-test-generator](skills/ai-test-generator/SKILL.md) | Use for any question or task about generating tests with an LLM from acceptance criteria, user stories or requirements, including whether it works and why gene… |
 | [model-based-test-graph-author](skills/model-based-test-graph-author/SKILL.md) | Use when a complex stateful flow (checkout, onboarding, multi-step wizard) needs systematic model-based coverage that ad-hoc tests miss. |
-| [data-contract-extractor](skills/data-contract-extractor/SKILL.md) | Use when scoping a new data product or formalizing checks on an existing one. |
+| [data-contract-extractor](skills/data-contract-extractor/SKILL.md) | Use for any question or task about data contracts, including what one should include and formalizing what a dataset promises after an upstream change such as a… |
 | [data-quality-conventions](skills/data-quality-conventions/SKILL.md) | Use when designing data-quality coverage for a new data product or auditing an existing one: choosing dbt tests vs Great Expectations vs Soda, column vs table-… |
 | [data-quality-gate](skills/data-quality-gate/SKILL.md) | Use when a data pipeline needs one CI step that fails the build when data quality drops. |
-| [dbt-testing](skills/dbt-testing/SKILL.md) | Use whenever a dbt project needs data tests or CI gates: generic, singular and custom-macro tests, model assertions, reading failures from run_results.json and… |
+| [dbt-testing](skills/dbt-testing/SKILL.md) | Use for any question or task about testing dbt models, including adding tests to a model's YAML and bad data such as duplicate IDs that a passing dbt build mis… |
 | [great-expectations](skills/great-expectations/SKILL.md) | Use whenever data validation uses Great Expectations (GX Core) on Pandas, SQL or Spark: ExpectationSuites, ValidationDefinitions and Checkpoints, running valid… |
 | [soda-checks](skills/soda-checks/SKILL.md) | Use when warehouse data quality (Snowflake, BigQuery, Postgres, Redshift and others) should be checked with YAML-based SodaCL: writing checks, configuration.ym… |
 

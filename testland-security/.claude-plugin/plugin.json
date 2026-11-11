@@ -1,7 +1,7 @@
 {
   "name": "testland-security",
   "displayName": "Testland Security",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Security testing and compliance: SAST, DAST, dependency, secret and SBOM scanning, infrastructure-as-code checks, fuzzing, compliance controls, test-data privacy, and multi-tenant isolation tests.",
   "author": {
     "name": "Testland",
