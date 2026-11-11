@@ -1,3 +1,5 @@
+<img src=".github/banner.png" alt="Testland QA skills: eleven non-overlapping packs for Claude" width="100%">
+
 # Testland QA skills
 
 Skills and agents for software testing and quality engineering, packaged as 11 Claude plugins. Each skill is in exactly one pack, so installing several packs never loads a skill twice.
