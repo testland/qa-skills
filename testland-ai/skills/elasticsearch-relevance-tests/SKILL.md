@@ -1,9 +1,6 @@
 ---
 name: elasticsearch-relevance-tests
 description: "Use before changing analyzers, synonyms, boosts or query templates on Elasticsearch, OpenSearch or Solr search, so a relevance baseline exists. Builds judgment lists and _rank_eval tests with precision, recall, MRR and DCG, plus OpenSearch and Solr specifics in its references."
-metadata:
-  keywords: "elasticsearch, rank-eval, relevance-testing, judgment-list, search-quality"
-  version: "1.2.8"
 ---
 
 # elasticsearch-relevance-tests

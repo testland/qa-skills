@@ -1,7 +1,7 @@
 {
   "name": "testland-api",
   "displayName": "Testland API",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Testing APIs and integrations: REST API tests, consumer-driven contracts, GraphQL, gRPC, auth flows (OAuth, OIDC, Keycloak, Auth0, Okta), real-time protocols, email and push notifications, and payment flows.",
   "author": {
     "name": "Testland",

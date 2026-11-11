@@ -1,9 +1,6 @@
 ---
 name: stripe-subscription-billing-test-author
 description: "Use when Stripe subscriptions or recurring billing need tests: trial to paid, proration on upgrade and downgrade, dunning on failed renewals, cancel and reactivate, and the subscription webhook events, using Stripe test clocks to skip through billing cycles without waiting."
-metadata:
-  keywords: "stripe, billing, subscriptions, recurring, test-clocks, dunning, proration, trial"
-  version: "1.4.6"
 ---
 
 # stripe-subscription-billing-test-author

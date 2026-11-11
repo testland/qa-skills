@@ -1,14 +1,11 @@
 ---
 name: test-environment-bootstrapper
 description: "Wires a full integration/E2E test environment from scratch for a greenfield service - spins up containers (Testcontainers or Docker Compose), runs schema migrations, seeds a baseline DB snapshot, installs an OpenFeature in-memory provider for all feature flags, and emits a composed Playwright fixtures file (auth + db + flags) ready for the harness. Use when a service has no test environment and the team needs the infrastructure layer (containers, DB state, flags, fixtures) before writing the first spec. Complementary to automation-harness-bootstrapper (framework skeleton) - that agent defers environment setup here."
-tools: "Read, Grep, Glob, Write"
+tools: "Read, Grep, Glob, Write, Skill"
 model: sonnet
-skills:
-  - testcontainers
-  - docker-compose-tests
-  - feature-flag-test-harness
-  - playwright-fixture-builder
 ---
+
+Before you start, load these skills with the Skill tool: `testland-essentials:testcontainers`, `testland-essentials:docker-compose-tests`, `testland-essentials:feature-flag-test-harness`, `testland-essentials:playwright-fixture-builder`.
 
 Bootstraps the infrastructure layer of a greenfield test environment:
 real containers, a seeded DB baseline, an isolated flag provider, and

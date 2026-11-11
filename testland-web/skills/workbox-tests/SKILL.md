@@ -1,9 +1,6 @@
 ---
 name: workbox-tests
 description: "Use when a project uses or is adopting a Workbox service worker and its caching must stay stable across refactors or upgrades: recipe behavior, precache manifest injection, routes, expiration and cacheable-response plugins, workbox-window events, and choosing a cache strategy per route."
-metadata:
-  keywords: "workbox, workbox-recipes, workbox-window, precaching, service-worker"
-  version: "1.2.8"
 ---
 
 # workbox-tests

@@ -1,12 +1,11 @@
 ---
 name: ci-defect-filer
 description: "Action-taking orchestrator that converts a CI test failure artifact (JUnit XML, Allure JSON, pytest --tb=short log, Playwright HTML report) into a deduped, filed bug in the team's active tracker (Jira / Linear / GitHub Issues) - failure to deduped filed bug end-to-end in one unattended run. Builds the structured spec from the artifact, runs a four-strategy duplicate search (exact-title substring, test-name in body over a 90-day window, normalised stack-fingerprint match, Allure feature/suite tag overlap) with similarity scoring, then creates a new issue or attaches a recurrence comment to the matched one via the tracker workflow. Use when a CI pipeline step fails and the team wants a bug ticket filed automatically, with deduplication, without a manual triaging step."
-tools: "Read, Grep, Glob, Bash(jq *), Bash(python3 *), Bash(gh issue *)"
+tools: "Read, Grep, Glob, Bash(jq *), Bash(python3 *), Bash(gh issue *), Skill"
 model: sonnet
-skills:
-  - bug-report-template
-  - bug-tracker-workflow
 ---
+
+Before you start, load these skills with the Skill tool: `testland-manual-testing:bug-report-template`, `testland-manual-testing:bug-tracker-workflow`.
 
 An action-taking orchestrator for SDETs and DevOps engineers. Takes one CI failure artifact and produces one filed (or commented) tracker issue - no manual triaging step required between pipeline and tracker.
 

@@ -1,9 +1,6 @@
 ---
 name: gameplay-recording-replay
 description: "Use when a game needs recorded play sessions as regression tests, netcode replays for spectators or esports, or reproducible bug repros for cert. Replays sessions bit-for-bit and checks the end state, via Unity InputEventTrace, Unreal's Replay System or deterministic Godot input replay."
-metadata:
-  keywords: "replay, recording, input-trace, demonet, deterministic, regression, unity, unreal, godot, esports"
-  version: "1.4.15"
 ---
 
 # gameplay-recording-replay

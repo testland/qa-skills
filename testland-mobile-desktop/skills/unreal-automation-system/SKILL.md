@@ -1,9 +1,6 @@
 ---
 name: unreal-automation-system
 description: "Use whenever C++ Unreal Engine code needs tests that use the engine, editor or UMG UI: the Automation Test Framework's simple and complex tests, Automation Spec (Describe, It, latent tests), latent commands, the Automation Driver for UI input, Session Frontend and command-line runs in CI."
-metadata:
-  keywords: "unreal, ue4, ue5, automation, automation-spec, automation-driver, session-frontend, gauntlet, cpp, game-engine"
-  version: "1.4.17"
 ---
 
 # unreal-automation-system

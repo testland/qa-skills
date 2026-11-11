@@ -1,9 +1,6 @@
 ---
 name: winappdriver
 description: "Use when a native Windows app (UWP, WPF, WinForms, Win32) must be driven from a Selenium-style client in C#, Java, Python, Ruby or JS: WinAppDriver directly or through the Appium 2 Windows driver, capabilities, AccessibilityId and Name locators, and Windows CI runners. C#-only: flaui-tests."
-metadata:
-  keywords: "windows, winappdriver, uia, webdriver, wpf, uwp"
-  version: "1.2.18"
 ---
 
 # winappdriver

@@ -1,9 +1,6 @@
 ---
 name: knip-dead-code
 description: "Use after a feature or route is deleted and the project still compiles, or when package.json has dependencies nobody can explain. Runs Knip on a JS/TS project to find unused files, dependencies, exports and class or enum members, aware of test entry points through its framework plugins."
-metadata:
-  keywords: "knip, dead-code, unused-exports, unused-dependencies, typescript"
-  version: "1.1.6"
 ---
 
 # knip-dead-code

@@ -1,9 +1,6 @@
 ---
 name: living-documentation-publisher
 description: "Use when BDD scenarios pass in CI and stakeholders need an always-current, readable report of which acceptance criteria pass. Turns Cucumber JSON into HTML living documentation (multiple-cucumber-html-reporter or Serenity BDD) and publishes it to GitHub or GitLab Pages."
-metadata:
-  keywords: "living-documentation, bdd, cucumber, serenity, reporting, github-pages"
-  version: "1.7.7"
 ---
 
 # living-documentation-publisher

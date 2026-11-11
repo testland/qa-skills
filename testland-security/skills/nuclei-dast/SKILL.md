@@ -1,9 +1,6 @@
 ---
 name: nuclei-dast
 description: "Use when a team runs ProjectDiscovery Nuclei for template-based web scanning, alongside or beyond ZAP: choosing templates by path, tag or severity, rate limits, JSONL output, custom YAML matchers for app-specific checks, community CVE templates and CI severity gates."
-metadata:
-  keywords: "nuclei, dast, templates, cve, security, jsonl, ci"
-  version: "1.3.10"
 ---
 
 # nuclei-dast

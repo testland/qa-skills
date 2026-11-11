@@ -1,13 +1,11 @@
 ---
 name: release-quality-report-agent
 description: "Action-taking agent that assembles an evidence-backed release-quality go/no-go report for QA managers and heads of engineering by composing a test-run narrative, a per-file coverage diff, and risk-ranked coverage targets into a single manager-facing document with an explicit GO / NO-GO / CONDITIONAL verdict. Distinct from `daily-test-suite-aggregator` (daily standup roll-up across all suites and environments for the team) and from `test-run-summary-author` (narrative skill for a single test run, not a cross-signal verdict). Use when a release candidate build exists and a QA manager or head of engineering needs a defensible, traceable go/no-go recommendation before approving the release."
-tools: "Read, Grep, Glob, Bash(jq *)"
+tools: "Read, Grep, Glob, Bash(jq *), Skill"
 model: sonnet
-skills:
-  - test-run-summary-author
-  - coverage-diff-reporter
-  - test-coverage-targeter
 ---
+
+Before you start, load these skills with the Skill tool: `testland-essentials:test-run-summary-author`, `testland-essentials:coverage-diff-reporter`, `testland-essentials:test-coverage-targeter`.
 
 Produces a release-quality go/no-go report by combining three evidence streams - test-run narrative, coverage diff, and coverage target recommendations - into one manager-facing document with an explicit verdict and a traceable rationale.
 

@@ -1,9 +1,6 @@
 ---
 name: otel-collector-config-tester
 description: "Use when an OpenTelemetry Collector config changes (a new receiver, processor or exporter) and must be verified before deploy. Runs otelcol validate, uses the debug or file exporter to assert spans flow through the pipeline, and wires the check into CI."
-metadata:
-  keywords: "opentelemetry, distributed-tracing, collector, pipeline-testing, otelcol-validate, debug-exporter, file-exporter, observability-testing"
-  version: "1.1.11"
 ---
 
 # otel-collector-config-tester

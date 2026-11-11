@@ -1,9 +1,6 @@
 ---
 name: playwright-extension-fixtures
 description: "Use when writing or debugging Playwright tests for a Chromium browser extension: the persistent-context fixture that loads the extension and finds its ID, why an edit seems to have no effect (reload matrix), and popup, content-script, storage and MV3 service-worker tests."
-metadata:
-  keywords: "playwright, chromium, launchpersistentcontext, test-fixtures, browser-extension"
-  version: "1.2.9"
 ---
 
 # playwright-extension-fixtures

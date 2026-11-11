@@ -1,9 +1,6 @@
 ---
 name: saga-transaction-tests
 description: "Use when a business transaction spans two or more services and a mid-sequence failure must be undone, or compensation logic just changed. Tests orchestrated and choreographed sagas: each compensating step, partial failures, idempotent compensations and the outbox for atomic publish."
-metadata:
-  keywords: "saga, distributed-transaction, compensating-transaction, orchestration, choreography"
-  version: "1.2.13"
 ---
 
 # saga-transaction-tests

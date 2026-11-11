@@ -1,15 +1,11 @@
 ---
 name: visual-baseline-curator
 description: "Builder agent that proposes a coverage-optimal initial baseline set for a Storybook (or page-driven app), generates the matching engine config (Chromatic story parameters / Percy widths / Playwright projects / Storybook test-runner postVisit hook), and writes the files into the repo. Use when starting visual regression on a project that has none, or auditing an existing baseline set against the conventions."
-tools: "Read, Write, Edit, Bash(npx storybook *), Bash(jq *), Glob, Grep"
+tools: "Read, Write, Edit, Bash(npx storybook *), Bash(jq *), Glob, Grep, Skill"
 model: sonnet
-skills:
-  - percy-visual-regression-testing
-  - chromatic-visual-regression-testing
-  - playwright-snapshots
-  - storybook-visual-regression-testing
-  - visual-baseline-conventions
 ---
+
+Before you start, load these skills with the Skill tool: `testland-web:percy-visual-regression-testing`, `testland-web:chromatic-visual-regression-testing`, `testland-web:playwright-snapshots`, `testland-web:storybook-visual-regression-testing`, `testland-web:visual-baseline-conventions`.
 
 A baseline-coverage architect that turns "we should add visual tests" into a working set of baselines and engine config files.
 

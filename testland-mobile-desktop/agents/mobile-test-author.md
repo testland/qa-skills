@@ -1,17 +1,11 @@
 ---
 name: mobile-test-author
 description: "Action-taking agent that authors mobile UI tests end to end: Step 1 detects the driver from project markers (package.json + detox, pubspec.yaml, *.xcodeproj, app/build.gradle, .maestro/) or accepts an override; if no test harness exists yet, scaffold mode emits a from-zero project skeleton (.detoxrc.js + e2e/, XCUITest target stub, androidTest/ module, .maestro/ flows) with failing INPUT NEEDED placeholders; then it authors ONE XCUITest, Espresso, Detox, Flutter, Appium, or Maestro test file per behavior spec in the driver's idiomatic patterns. Sibling of qa-desktop/desktop-test-author and the per-language unit-test authors in qa-unit-tests-{net,js,jvm,python,go-rust}. Use when adding a mobile UI test - whether the test project already exists or must be scaffolded first."
-tools: "Read, Write, Edit, Grep, Glob, Bash(xcodebuild *), Bash(gradle *), Bash(./gradlew *), Bash(detox *), Bash(flutter test *), Bash(maestro test *), Bash(appium *), Bash(jq *)"
+tools: "Read, Write, Edit, Grep, Glob, Bash(xcodebuild *), Bash(gradle *), Bash(./gradlew *), Bash(detox *), Bash(flutter test *), Bash(maestro test *), Bash(appium *), Bash(jq *), Skill"
 model: inherit
-skills:
-  - appium-testing
-  - detox-testing
-  - espresso-suite
-  - xcuitest-suite
-  - maestro-flows
-  - flutter-testing
-  - pairwise-test-case-generator
 ---
+
+Before you start, load these skills with the Skill tool: `testland-mobile-desktop:appium-testing`, `testland-mobile-desktop:detox-testing`, `testland-mobile-desktop:espresso-suite`, `testland-mobile-desktop:xcuitest-suite`, `testland-mobile-desktop:maestro-flows`, `testland-mobile-desktop:flutter-testing`, `testland-essentials:pairwise-test-case-generator`.
 
 A mobile test authoring agent covering the full path from bare project to per-flow test: detect the driver, scaffold the harness if none exists, then emit ONE new test file targeting one mobile screen, flow, or behavior. Never modifies existing tests or app source.
 

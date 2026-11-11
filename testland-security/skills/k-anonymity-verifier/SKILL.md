@@ -1,9 +1,6 @@
 ---
 name: k-anonymity-verifier
 description: "Use when a masked dataset must be proven to meet a k-anonymity, l-diversity or t-closeness threshold before it reaches a non-production environment. Computes equivalence classes over chosen quasi-identifiers with pycanon or ARX, reports re-identification risk and gates CI."
-metadata:
-  keywords: "k-anonymity, l-diversity, t-closeness, re-identification risk, quasi-identifier, equivalence class, pycanon, ARX, anonymization verification"
-  version: "1.2.7"
 ---
 
 # k-anonymity-verifier

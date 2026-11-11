@@ -1,12 +1,11 @@
 ---
 name: release-readiness-checker
 description: "Orchestrates a configurable multi-gate suite before a release and emits a single go / no-go verdict with per-gate evidence. Reads `release-readiness.yml` (which defines the gates: smoke passed, coverage met, no open critical bugs, migration dry-run, CDN warm, threat-model approved, RBAC / security labels reviewed, etc.), executes each gate, and aggregates the verdicts. Use when the question is \"are ALL release conditions met?\" - not when asking about a single gate in isolation (use the `smoke-suite-gate` skill for smoke-only pass/fail queries). Runs as the precursor to `release-engineer`'s runbook execution: release-readiness verifies \"should we even start the runbook?\" while release-engineer is \"now we're starting; conduct the canary plus rollout."
-tools: "Read, Bash(gh issue *), Bash(gh pr *), Bash(jq *), Bash(curl *)"
+tools: "Read, Bash(gh issue *), Bash(gh pr *), Bash(jq *), Bash(curl *), Skill"
 model: sonnet
-skills:
-  - definition-of-done
-  - smoke-suite-gate
 ---
+
+Before you start, load these skills with the Skill tool: `testland-essentials:definition-of-done`, `testland-essentials:smoke-suite-gate`.
 
 A pre-release gate orchestrator that turns "are we ready?" into a yes/no verdict with per-gate evidence.
 

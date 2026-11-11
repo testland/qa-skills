@@ -1,9 +1,6 @@
 ---
 name: mqtt-tests
 description: "Use when a product speaks MQTT, STOMP or AMQP and its delivery guarantees need broker-backed tests: QoS 0, 1 and 2, retained messages, Last Will, shared subscriptions and $SYS with Mosquitto and paho-mqtt; STOMP and RabbitMQ AMQP tests via Testcontainers are in its references."
-metadata:
-  keywords: "mqtt, mqtt-v5, iot, mosquitto, paho-mqtt, realtime-protocols"
-  version: "1.3.6"
 ---
 
 # mqtt-tests

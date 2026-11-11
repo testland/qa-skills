@@ -1,9 +1,6 @@
 ---
 name: vex-author
 description: "Use when a scanner flags a CVE that analysis shows is not exploitable in your product, and a machine-readable assertion is needed instead of deleting the finding. Writes and validates OpenVEX statements (not_affected, affected, fixed, under_investigation) with vexctl and attaches them to images."
-metadata:
-  keywords: "vex, openvex, vulnerability-exception, not-affected, sbom"
-  version: "1.1.14"
 ---
 
 # vex-author

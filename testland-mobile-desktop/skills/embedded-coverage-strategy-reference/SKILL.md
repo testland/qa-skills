@@ -1,9 +1,6 @@
 ---
 name: embedded-coverage-strategy-reference
 description: "Use when deciding what code coverage level embedded C/C++ needs (statement, branch, MC/DC) and wiring gcov or llvm-cov into the build: host vs QEMU instrumentation, MISRA-C and DO-178C expectations by safety level, and report formats."
-metadata:
-  keywords: "coverage, gcov, llvm-cov, mcdc, misra, do-178c, embedded"
-  version: "1.3.9"
 ---
 
 # embedded-coverage-strategy-reference

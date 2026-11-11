@@ -1,9 +1,6 @@
 ---
 name: pdf-snapshot-tester
 description: "Use when generated PDFs (invoices, contracts, regulatory filings) must not shift layout, or a template, font or PDF library is changing. Renders pages to images and pixel-diffs them against approved baselines, strips volatile metadata, and compares HTML-to-PDF engines."
-metadata:
-  keywords: "pdf-snapshot, visual-regression, pdftocairo, poppler, pixel-diff"
-  version: "1.1.11"
 ---
 
 # pdf-snapshot-tester

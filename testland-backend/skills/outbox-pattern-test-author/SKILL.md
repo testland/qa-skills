@@ -1,9 +1,6 @@
 ---
 name: outbox-pattern-test-author
 description: "Use when adding or changing a transactional outbox, its relay or poller, or auditing it: tests that the DB write and event insert are atomic, events publish at least once in order, consumers dedupe and stay idempotent, and the relay recovers from failures."
-metadata:
-  keywords: "outbox, transactional-outbox, polling-publisher, dual-write, at-least-once, idempotency, saga, event-driven"
-  version: "1.2.13"
 ---
 
 # outbox-pattern-test-author

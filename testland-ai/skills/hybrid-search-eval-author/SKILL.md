@@ -1,9 +1,6 @@
 ---
 name: hybrid-search-eval-author
 description: "Use when a search system combines keyword (BM25) and vector retrieval, with or without a reranker, and needs numbers: judgment sets, nDCG@k and MRR on fused results, Reciprocal Rank Fusion vs weighted fusion vs single-stage, and whether the reranker earns its latency."
-metadata:
-  keywords: "hybrid-search, reciprocal-rank-fusion, rrf, bm25, ndcg, mrr, reranker, cross-encoder, cohere-rerank, opensearch, elasticsearch"
-  version: "1.2.7"
 ---
 
 # hybrid-search-eval-author

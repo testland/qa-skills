@@ -1,11 +1,11 @@
 ---
 name: stale-flag-detector
 description: "Read-only specialist that scans a codebase for stale feature flags - flags at 100% rollout for long enough to remove, kill-switches that haven't been touched in months, experiments that have already shipped, and orphan flags (referenced in code but not in the platform, or vice versa) - and returns a ranked removal-candidate list plus the safe-removal runbook for each (pre-removal verification, code + platform-side removal steps, post-removal checks, rollback plan). Use proactively monthly / quarterly as flag-debt audit, or as a pre-flight check before a major refactor. Preloads openfeature-sdk-testing (its flag test-matrix reference)."
-tools: "Read, Grep, Glob, Bash(git log *)"
+tools: "Read, Grep, Glob, Bash(git log *), Skill"
 model: sonnet
-skills:
-  - openfeature-sdk-testing
 ---
+
+Before you start, load this skill with the Skill tool: `testland-backend:openfeature-sdk-testing`.
 
 A read-only specialist that ranks stale feature flags for removal.
 

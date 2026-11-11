@@ -1,9 +1,6 @@
 ---
 name: dr-drill-runner
 description: "Use when a disaster-recovery drill for one service is being planned, run or written up, or a new tier-1 service has no drill. Writes a runbook with RTO and RPO per tier, a pre-drill checklist, timed failover and failback, abort rules, an audit-ready report, and backup and restore checks."
-metadata:
-  keywords: "disaster-recovery, dr-drill, rto, rpo, failover, runbook"
-  version: "1.2.18"
 ---
 
 # dr-drill-runner

@@ -1,9 +1,6 @@
 ---
 name: electron-playwright
 description: "Use whenever an Electron desktop app needs end-to-end tests, or a Spectron suite must be migrated: Playwright's _electron.launch, renderer windows as Pages, main-process checks via electronApp.evaluate, and IPC and DOM assertions from one suite."
-metadata:
-  keywords: "electron, playwright, desktop, main-process, renderer"
-  version: "1.2.21"
 ---
 
 # electron-playwright

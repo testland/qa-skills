@@ -1,9 +1,6 @@
 ---
 name: mvcc-isolation-tests
 description: "Use when two concurrent database transactions can touch the same rows (balance debits, seat bookings, stock counts), or before changing a default isolation level. Tests which anomalies each level prevents (dirty, non-repeatable and phantom reads, write skew) in PostgreSQL, MySQL and SQL Server."
-metadata:
-  keywords: "mvcc, transaction-isolation, serializable, phantom-read, write-skew"
-  version: "1.2.15"
 ---
 
 # mvcc-isolation-tests

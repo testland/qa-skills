@@ -1,9 +1,6 @@
 ---
 name: pytest-asyncio-patterns
 description: "Use for any question or task about testing async Python code, including how to test an async function, async tests that are skipped or fail with event-loop errors, and tests for FastAPI or aiohttp endpoints: pytest-asyncio modes and loop scopes, async fixtures, AsyncMock (assert_awaited), httpx.AsyncClient with ASGITransport and aiohttp_client."
-metadata:
-  keywords: "pytest, asyncio, async, fastapi, aiohttp, httpx, AsyncMock, event-loop, async-fixtures"
-  version: "1.2.19"
 ---
 
 # pytest-asyncio-patterns

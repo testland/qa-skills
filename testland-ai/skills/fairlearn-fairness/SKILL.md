@@ -1,9 +1,6 @@
 ---
 name: fairlearn-fairness
 description: "Use when a model's decisions affect people and an auditor or rule (ECOA, GDPR Art. 22, EU AI Act) needs per-group evidence, or someone reports unfair treatment of a group. Computes Fairlearn MetricFrame group metrics, mitigates with ExponentiatedGradient and adds group checks to the gate."
-metadata:
-  keywords: "fairlearn, fairness, demographic-parity, equalized-odds, bias-mitigation"
-  version: "1.3.6"
 ---
 
 # fairlearn-fairness

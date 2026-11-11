@@ -1,9 +1,6 @@
 ---
 name: service-worker-lifecycle-tests
 description: "Use when a service worker needs lifecycle tests, users are stuck on an old version after deploy, or caching and offline behavior is untested. Tests each state change from installing to activated, waitUntil, skipWaiting and clients.claim, update() and a clean v1 to v2 upgrade with Playwright."
-metadata:
-  keywords: "service-worker, lifecycle, skip-waiting, clients-claim, statechange"
-  version: "1.2.9"
 ---
 
 # service-worker-lifecycle-tests

@@ -1,9 +1,6 @@
 ---
 name: tenant-onboarding-test-author
 description: "Use when a tenant onboarding or offboarding flow is added or changed, or before a compliance review: tests for account creation, isolation from the first API call, default quotas, billing links, seed data, idempotent re-provisioning and full deletion on teardown."
-metadata:
-  keywords: "tenant-provisioning, onboarding, offboarding, saas, multi-tenancy, idempotent, quota, billing, teardown"
-  version: "1.3.6"
 ---
 
 # tenant-onboarding-test-author

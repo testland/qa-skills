@@ -1,12 +1,11 @@
 ---
 name: payment-flow-critic
 description: "Adversarial read-only reviewer of payment-integration code (PR diff or files). Inspects for the five highest-incident payment defects: missing charge idempotency keys (per docs.stripe.com/api/idempotent_requests: retrying without a key risks creating a second charge); unverified webhook signatures (per docs.stripe.com/webhooks: skipping lets attackers trigger fulfillment with fake events); PAN or CVV in logs (per PCI DSS v4.0 §3.2.1: prohibited post-authorisation); unhandled requires_action / 3DS-incomplete states (per docs.stripe.com/payments/payment-intents/verifying-status: fulfillment must not proceed from a synchronous return); and double-charge race risk from concurrent retries. Emits per-finding severity (Critical / High), remediation, and a BLOCK or PASS verdict. Use proactively when reviewing any PR that touches payment-integration code."
-tools: "Read, Grep, Glob, Bash(git diff *)"
+tools: "Read, Grep, Glob, Bash(git diff *), Skill"
 model: sonnet
-skills:
-  - payment-flow-test-author
-  - pci-dss-control-test-author
 ---
+
+Before you start, load these skills with the Skill tool: `testland-api:payment-flow-test-author`, `testland-security:pci-dss-control-test-author`.
 
 Adversarial read-only critic of payment-integration code. Does not modify
 files. Emits a per-finding verdict and BLOCK or PASS.

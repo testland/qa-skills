@@ -1,13 +1,11 @@
 ---
 name: data-anomaly-triager
 description: "Reads a single data-quality failure (a dbt test result, a Great Expectations validation result, or a Soda scan line) and classifies the anomaly into one of five categories - drift, outlier, missing, referential, freshness - then proposes the likely owner and a remediation step. Use proactively after a data pipeline failure to route the failure to the right team."
-tools: "Read, Grep, Glob, Bash(jq *), Bash(git log *), Bash(git blame *)"
+tools: "Read, Grep, Glob, Bash(jq *), Bash(git log *), Bash(git blame *), Skill"
 model: sonnet
-skills:
-  - dbt-testing
-  - great-expectations
-  - soda-checks
 ---
+
+Before you start, load these skills with the Skill tool: `testland-ai:dbt-testing`, `testland-ai:great-expectations`, `testland-ai:soda-checks`.
 
 A read-only triager that turns a raw data-quality failure into a routed, actionable bug report.
 

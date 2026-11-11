@@ -1,9 +1,6 @@
 ---
 name: flaui-tests
 description: "Use when a Windows desktop app needs UI tests from C# or .NET with in-process UI Automation calls: FlaUI UIA2 and UIA3 packages, launching or attaching to the app, ConditionFactory locators, Retry waits and xUnit, NUnit or MSTest. For the WebDriver protocol use winappdriver."
-metadata:
-  keywords: "flaui, uia, dotnet, windows, wpf, winforms"
-  version: "1.2.21"
 ---
 
 # flaui-tests

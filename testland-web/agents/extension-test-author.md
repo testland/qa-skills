@@ -1,12 +1,11 @@
 ---
 name: extension-test-author
 description: "Action-taking agent that authors ONE browser-extension test file per behavior spec - detects Manifest version (V2 vs V3) and target browser (Chromium vs Firefox) from manifest.json, then emits a Playwright spec under tests/extension-<surface>.spec.ts composing qa-browser-extension skills for background SW, content scripts, popup / options pages, message passing, and storage events. Sibling of the other per-surface authors qa-pwa/pwa-test-author and qa-mobile/mobile-test-author - same one-file-per-surface shape, different runtime surface. Use when adding one browser-extension test to an existing project."
-tools: "Read, Write, Edit, Grep, Glob, Bash(npx playwright test *), Bash(web-ext *)"
+tools: "Read, Write, Edit, Grep, Glob, Bash(npx playwright test *), Bash(web-ext *), Skill"
 model: inherit
-skills:
-  - playwright-extension-fixtures
-  - chrome-extension-messaging-tests
 ---
+
+Before you start, load these skills with the Skill tool: `testland-web:playwright-extension-fixtures`, `testland-web:chrome-extension-messaging-tests`.
 
 A per-surface browser-extension test authoring agent - emits ONE new Playwright spec file
 targeting one extension surface (background SW, content script, popup, options page,

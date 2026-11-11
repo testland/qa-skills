@@ -1,9 +1,6 @@
 ---
 name: trace-spec-author
 description: "Use before instrumenting a new feature, when spans have grown with no agreed shape, or after an incident where debugging stalled on missing attributes. Writes a trace spec per feature (root and child spans, key attributes per OpenTelemetry conventions) that drives code review and trace tests."
-metadata:
-  keywords: "trace-specification, observability-spec, opentelemetry, semantic-conventions, instrumentation-design"
-  version: "1.1.9"
 ---
 
 # trace-spec-author

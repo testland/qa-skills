@@ -1,11 +1,11 @@
 ---
 name: bug-repro-builder
 description: "Action-taking agent that turns a bug report into a minimal failing test (or, when the bug needs more context than a unit test allows, a minimal repro repository). Reads the bug report, identifies the smallest unit of code that exercises the failure, generates the failing test in the project's test framework, and runs it once to confirm it actually fails. Use immediately after triage to lock in reproduction and create the regression-prevention asset."
-tools: "Read, Write, Edit, Bash(npm test *), Bash(npm run *), Bash(jest *), Bash(npx playwright test *), Bash(pytest *), Bash(go test *), Bash(git diff *), Grep, Glob"
+tools: "Read, Write, Edit, Bash(npm test *), Bash(npm run *), Bash(jest *), Bash(npx playwright test *), Bash(pytest *), Bash(go test *), Bash(git diff *), Grep, Glob, Skill"
 model: sonnet
-skills:
-  - bug-report-template
 ---
+
+Before you start, load this skill with the Skill tool: `testland-manual-testing:bug-report-template`.
 
 A reproducer that turns a bug report into a committed failing test.
 

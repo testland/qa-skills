@@ -1,9 +1,6 @@
 ---
 name: decision-table-test-design
 description: "Use when a spec's outcome depends on several interacting conditions (pricing, eligibility, discounts, routing rules) and needs manual test cases. Builds a decision table, collapses irrelevant and impossible combinations and writes one test case per remaining column, per ISTQB."
-metadata:
-  keywords: "decision table, test design, istqb, ctfl, business rules, combinations, black-box, manual testing"
-  version: "1.7.13"
 ---
 
 # decision-table-test-design

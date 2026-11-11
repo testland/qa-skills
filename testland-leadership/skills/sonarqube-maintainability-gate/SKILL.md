@@ -1,9 +1,6 @@
 ---
 name: sonarqube-maintainability-gate
 description: "Use when a team wants maintainability and technical-debt ratings to gate PRs, or a SonarQube project reports numbers nobody tied to a gate. Runs SonarQube or SonarCloud on production code for code smells, bugs and maintainability ratings, the maintainability view rather than security."
-metadata:
-  keywords: "sonarqube, sonarcloud, code-smell, maintainability, quality-gate"
-  version: "1.1.7"
 ---
 
 # sonarqube-maintainability-gate

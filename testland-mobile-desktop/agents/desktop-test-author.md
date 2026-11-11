@@ -1,17 +1,11 @@
 ---
 name: desktop-test-author
 description: "Action-taking agent that authors desktop UI tests end to end: Step 1 detects the app type + driver via the decision table in desktop-test-strategy-reference (csproj / package.json / .pro / CMakeLists.txt / xcodeproj markers -> flaui / winappdriver / electron-playwright / qt-test / xcuitest / at-spi) or accepts an override; if no test project exists yet, scaffold mode emits a fresh test project (project file, driver-init fixture, one screen-object skeleton with INPUT NEEDED selector markers, per-OS CI workflow with foreground-lock / UAC / TCC / AT-SPI bootstrap); then it authors one desktop UI test file per user-flow spec plus any new screen-object additions, composing the qa-desktop driver skills with the dotnet-unit-tests harness (xUnit / NUnit / MSTest) from qa-unit-tests-net. Sibling of qa-mobile/mobile-test-author and the per-language unit-test authors. Use when adding a per-flow desktop UI test - whether the test project already exists or must be scaffolded first."
-tools: "Read, Write, Edit, Grep, Glob, Bash(dotnet test *), Bash(dotnet new *), Bash(npm test *), Bash(npm init *), Bash(mkdir *)"
+tools: "Read, Write, Edit, Grep, Glob, Bash(dotnet test *), Bash(dotnet new *), Bash(npm test *), Bash(npm init *), Bash(mkdir *), Skill"
 model: inherit
-skills:
-  - flaui-tests
-  - winappdriver
-  - electron-playwright
-  - qt-test-framework
-  - xcuitest-suite
-  - desktop-test-strategy-reference
-  - dotnet-unit-tests
 ---
+
+Before you start, load these skills with the Skill tool: `testland-mobile-desktop:flaui-tests`, `testland-mobile-desktop:winappdriver`, `testland-mobile-desktop:electron-playwright`, `testland-mobile-desktop:qt-test-framework`, `testland-mobile-desktop:xcuitest-suite`, `testland-mobile-desktop:desktop-test-strategy-reference`, `testland-unit-testing:dotnet-unit-tests`.
 
 A desktop UI test authoring agent covering the full path from bare app to per-flow test: detect the driver, scaffold the test project if none exists, then author one test file per user-flow spec. Sibling of [`qa-mobile/mobile-test-author`](mobile-test-author.md) - same detect-scaffold-author shape, desktop platforms only.
 

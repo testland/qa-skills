@@ -1,9 +1,6 @@
 ---
 name: deepchecks-tests
 description: "Use before training to catch train-test leakage and data integrity problems in tabular, NLP or vision data, and to rerun the same suite on production samples for drift. Runs Deepchecks data integrity, train-test validation and model evaluation suites and gates CI on passed conditions."
-metadata:
-  keywords: "deepchecks, ml-testing, data-validation, train-test-split, model-evaluation"
-  version: "1.3.6"
 ---
 
 # deepchecks-tests

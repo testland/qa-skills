@@ -1,9 +1,6 @@
 ---
 name: event-sourcing-tests
 description: "Use when an event-sourced aggregate gains or changes an event type, snapshots are added, or a CQRS read model is projected from events. Tests given-events/when-command/then-events, replay determinism, upcasting, snapshot equivalence, projections and eventual-consistency windows."
-metadata:
-  keywords: "event-sourcing, aggregate-replay, snapshot, upcasting, projection"
-  version: "1.2.14"
 ---
 
 # event-sourcing-tests

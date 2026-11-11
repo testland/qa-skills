@@ -1,9 +1,6 @@
 ---
 name: jaeger-trace-tests
 description: "Use when tests must prove a request produces the expected spans across services in a running Jaeger, Zipkin or Grafana Tempo backend. Runs the backend in CI, queries traces by service and operation, and asserts on spans, parent-child links and durations."
-metadata:
-  keywords: "jaeger, distributed-tracing, integration-testing, opentelemetry, trace-query"
-  version: "1.1.11"
 ---
 
 # jaeger-trace-tests

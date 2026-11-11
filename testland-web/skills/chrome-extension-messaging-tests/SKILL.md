@@ -1,9 +1,6 @@
 ---
 name: chrome-extension-messaging-tests
 description: "Use when a Chrome extension's messages reach no listener, sendResponse never fires, a port disconnects mid-test, or a web page's access must be proven. Tests runtime.sendMessage, tabs.sendMessage, long-lived ports, externally_connectable and native messaging on a running extension."
-metadata:
-  keywords: "chrome-runtime-sendmessage, chrome-runtime-connect, externally-connectable, native-messaging, onmessage-listener"
-  version: "1.2.7"
 ---
 
 # chrome-extension-messaging-tests

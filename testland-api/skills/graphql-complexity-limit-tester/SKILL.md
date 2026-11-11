@@ -1,9 +1,6 @@
 ---
 name: graphql-complexity-limit-tester
 description: "Use when a GraphQL API must be hardened or audited against denial of service and schema disclosure. Sends over-limit depth and cost queries and asserts they are rejected, proving graphql-depth-limit, cost analysis or graphql-armor are enforced; covers introspection and persisted-query allowlists."
-metadata:
-  keywords: "graphql, depth-limit, complexity, cost-analysis, dos, security, graphql-armor, introspection, persisted-queries"
-  version: "1.4.5"
 ---
 
 # graphql-complexity-limit-tester

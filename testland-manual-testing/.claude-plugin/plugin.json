@@ -1,7 +1,7 @@
 {
   "name": "testland-manual-testing",
   "displayName": "Testland Manual Testing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Manual and exploratory testing: test design techniques, exploratory charters and sessions, bug reproduction and reports, defect tracking, and test case management.",
   "author": {
     "name": "Testland",

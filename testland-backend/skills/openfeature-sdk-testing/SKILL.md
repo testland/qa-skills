@@ -1,9 +1,6 @@
 ---
 name: openfeature-sdk-testing
 description: "Use whenever code that reads feature flags through OpenFeature, Unleash, Flagsmith or GrowthBook needs tests: InMemoryProvider for hermetic tests, evaluation details, hooks and targeting context in TypeScript, Java and Python, plus a flag test-matrix workflow. LaunchDarkly has launchdarkly-testing."
-metadata:
-  keywords: "openfeature, feature-flags, cncf, hermetic-tests, in-memory-provider, unleash, flagsmith, growthbook"
-  version: "1.3.17"
 ---
 
 # openfeature-sdk-testing

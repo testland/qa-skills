@@ -1,9 +1,6 @@
 ---
 name: skill-matrix-author
 description: "Use when a QA manager needs to know what the team can do today versus what its projects demand, before quarterly planning, a training budget decision or opening a role. Builds an evidence-backed skill matrix, classifies and ranks gaps and recommends train, hire or bring in an expert per gap."
-metadata:
-  keywords: "skill-matrix, competency, qa-team, gap-analysis, ctal-tm, test-management, capability"
-  version: "1.1.8"
 ---
 
 # skill-matrix-author

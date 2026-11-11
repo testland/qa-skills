@@ -1,9 +1,6 @@
 ---
 name: pdf-accessibility-checker
 description: "Use when customer-facing PDFs must meet PDF/UA (Section 508, EU accessibility rules, public tenders) and each file must be proven tagged before release. Checks structure tags, alt text, reading order, language and title with veraPDF, PAC or similar, mapped to WCAG PDF techniques."
-metadata:
-  keywords: "pdf-accessibility, pdf-ua, tagged-pdf, wcag, verapdf"
-  version: "1.1.9"
 ---
 
 # pdf-accessibility-checker

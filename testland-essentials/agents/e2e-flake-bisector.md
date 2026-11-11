@@ -1,13 +1,11 @@
 ---
 name: e2e-flake-bisector
 description: "Runs a target end-to-end test N times under varied conditions (worker isolation, test order, viewport, network throttling, parallelism) to identify the axis along which the flake reproduces, then - when the bisect implicates parallel execution - runs a stage-2 shared-state isolation check that instruments DB rows, env vars, files, ports, and global module state to name the specific resource two workers are colliding on, with file:line evidence. Returns a probable root cause classified against the 8 flake patterns plus a numeric reproduction rate per axis. Use when a test has been flagged flaky and the team needs to know which condition triggers the failure."
-tools: "Read, Grep, Glob, Bash(npx playwright test *), Bash(jest *), Bash(npx cypress *), Bash(lsof *), Bash(ps *), Bash(jq *)"
+tools: "Read, Grep, Glob, Bash(npx playwright test *), Bash(jest *), Bash(npx cypress *), Bash(lsof *), Bash(ps *), Bash(jq *), Skill"
 model: sonnet
-skills:
-  - flake-pattern-reference
-  - flaky-test-quarantine
-  - flake-axis-bisection
 ---
+
+Before you start, load these skills with the Skill tool: `testland-essentials:flake-pattern-reference`, `testland-essentials:flaky-test-quarantine`, `testland-essentials:flake-axis-bisection`.
 
 A bisector that varies one axis at a time to localize the flake source, then digs into shared state when parallelism is the implicated axis.
 

@@ -1,9 +1,6 @@
 ---
 name: llm-regression-suite-author
 description: "Use when upgrading an LLM model or provider needs a repeatable before/after quality gate, or prompt quality must be tracked across model versions. Builds a versioned golden dataset, deterministic runs, exact, semantic, judge and rubric checks, and a pass-rate CI gate with a baseline diff."
-metadata:
-  keywords: "llm-regression, golden-dataset, model-upgrade, promptfoo, deepeval, pass-rate, deterministic-eval"
-  version: "1.3.8"
 ---
 
 # llm-regression-suite-author

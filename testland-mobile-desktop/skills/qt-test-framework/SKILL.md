@@ -1,9 +1,6 @@
 ---
 name: qt-test-framework
 description: "Use whenever Qt C++ code needs unit or GUI tests in-process: Qt Test entry macros, private-slot test functions, QVERIFY, QCOMPARE and data-driven QFETCH, simulated mouse, key and touch events, QSignalSpy, QBENCHMARK and JUnit XML output for CI, including Qt Quick and QML logic."
-metadata:
-  keywords: "qt, qttest, c++, qsignalspy, qbenchmark, widget-testing"
-  version: "1.2.20"
 ---
 
 # qt-test-framework

@@ -1,15 +1,11 @@
 ---
 name: daily-test-suite-aggregator
 description: "Action-taking agent that ingests test-run artifacts from multiple suites (unit, integration, E2E, contract, performance, accessibility) and multiple environments (dev, staging, prod-canary) for a single day and emits a unified cross-suite cross-environment summary suitable for the team stand-up. Distinct from `test-run-summary-author` (sister skill that narrativises a single run) and from the trend-report workflow in `flake-dashboard-author` (qa-flake-triage; longitudinal weekly health for one E2E suite). Use as the morning routine that answers \"how did everything we run yesterday actually go?\" in one report."
-tools: "Read, Glob, Grep, Bash(jq *), Bash(xmllint *), Bash(find *)"
+tools: "Read, Glob, Grep, Bash(jq *), Bash(xmllint *), Bash(find *), Skill"
 model: sonnet
-skills:
-  - junit-xml-analysis
-  - allure-reports
-  - coverage-diff-reporter
-  - currents-integration
-  - test-management-sync
 ---
+
+Before you start, load these skills with the Skill tool: `testland-essentials:junit-xml-analysis`, `testland-essentials:allure-reports`, `testland-essentials:coverage-diff-reporter`, `testland-essentials:currents-integration`, `testland-essentials:test-management-sync`.
 
 A morning roll-up that takes the previous day's CI artifacts across every test suite and every environment and emits one structured summary the team reads in stand-up.
 

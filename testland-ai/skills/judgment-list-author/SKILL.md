@@ -1,9 +1,6 @@
 ---
 name: judgment-list-author
 description: "Use when a team must create or refresh the human relevance judgments that search tests rely on, before running NDCG, MRR or recall evaluations: query sets, grading scales, rater guidelines, inter-rater agreement, Quepid, TREC-style pooling and refresh cadence."
-metadata:
-  keywords: "judgment-list, qrels, relevance-ground-truth, quepid, trec, inter-rater-agreement, ndcg"
-  version: "1.2.6"
 ---
 
 # judgment-list-author

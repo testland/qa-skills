@@ -1,9 +1,6 @@
 ---
 name: deadlock-detection-harness
 description: "Use when a service that takes two or more locks hangs in production with no error, or before a release when lock order across code paths was never checked. Records lock order, finds cycles, uses lock timeouts to fail instead of hang, and reads jstack or gdb thread dumps."
-metadata:
-  keywords: "deadlock, lock-order, thread-sanitizer, jstack, cycle-detection"
-  version: "1.2.13"
 ---
 
 # deadlock-detection-harness

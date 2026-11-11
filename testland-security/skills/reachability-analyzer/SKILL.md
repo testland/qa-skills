@@ -1,9 +1,6 @@
 ---
 name: reachability-analyzer
 description: "Use whenever npm audit, OSV-Scanner or Snyk reports too many vulnerabilities and only the ones that matter should count. Finds dependencies the code never uses with knip or depcheck (JS), vulture (Python) or cargo-machete (Rust) and downranks their CVEs. EPSS and KEV: cve-exploitability-triage."
-metadata:
-  keywords: "reachability, dead-dependencies, sca, depcheck, knip, vulture, cargo-machete, prioritization"
-  version: "1.2.11"
 ---
 
 # reachability-analyzer

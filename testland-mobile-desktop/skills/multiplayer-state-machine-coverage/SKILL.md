@@ -1,9 +1,6 @@
 ---
 name: multiplayer-state-machine-coverage
 description: "Use before a multiplayer game goes to platform cert, where broken multiplayer is a common rejection. Builds a coverage matrix for connect, authority handoff, disconnect, reconnect and host migration under latency, loss and reordering for Unity Netcode, Unreal and Mirror, with a go/no-go gate."
-metadata:
-  keywords: "multiplayer, netcode, unity-ngo, unreal-replication, mirror-networking, state-machine, host-migration, reconnect, xr-067"
-  version: "1.4.18"
 ---
 
 # multiplayer-state-machine-coverage

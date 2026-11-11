@@ -1,9 +1,6 @@
 ---
 name: mobile-a11y-test-author
 description: "Use when an iOS or Android app needs accessibility tests: XCUITest performAccessibilityAudit (iOS 17+), VoiceOver labels and traits, Espresso AccessibilityChecks, Accessibility Scanner and TalkBack order, plus WCAG checks for labels, 44pt and 48dp touch targets, contrast and focus order."
-metadata:
-  keywords: "accessibility, a11y, VoiceOver, TalkBack, WCAG, iOS, Android, XCUITest, Espresso, screen reader"
-  version: "1.4.10"
 ---
 
 # mobile-a11y-test-author

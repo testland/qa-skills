@@ -1,9 +1,6 @@
 ---
 name: game-perf-profiling
 description: "Use when a game must hit a frame-time or memory budget before a milestone or platform cert, or a change needs a performance regression check. Profiles with Unity Profiler and Performance Testing or Unreal Insights, sets 16.6 ms and 33.3 ms budgets, adds CI perf tests and reports per SKU."
-metadata:
-  keywords: "game-performance, frame-time, profiling, unity-profiler, profile-analyzer, performance-testing, unreal-insights, gc-spike, draw-calls, overdraw, ci-regression"
-  version: "1.4.18"
 ---
 
 # game-perf-profiling

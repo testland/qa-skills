@@ -1,9 +1,6 @@
 ---
 name: azure-functions-tests
 description: "Use when Azure Functions need testing before deploy: running them locally with Core Tools v4 and Azurite, unit tests for .NET isolated, Node v4 and Python v2 handlers, HTTP, queue and timer triggers, admin-endpoint calls and binding checks in local.settings.json."
-metadata:
-  keywords: "azure-functions, func-start, azurite, isolated-worker, http-trigger, queue-trigger, timer-trigger, serverless, local-testing"
-  version: "1.3.7"
 ---
 
 # azure-functions-tests

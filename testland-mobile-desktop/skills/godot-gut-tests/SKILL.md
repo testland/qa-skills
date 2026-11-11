@@ -1,9 +1,6 @@
 ---
 name: godot-gut-tests
 description: "Use whenever GDScript code in a Godot project needs unit tests with GUT: install, tests extending GutTest, assertions including signals, lifecycle hooks, parameterized tests, doubles, stubs and spies, async tests, the command-line runner with JUnit XML, and CI. GUT 9 for Godot 4, GUT 7 for Godot 3."
-metadata:
-  keywords: "godot, gut, gdscript, unit-test, game-engine, junit-xml, bitwes"
-  version: "1.4.18"
 ---
 
 # godot-gut-tests

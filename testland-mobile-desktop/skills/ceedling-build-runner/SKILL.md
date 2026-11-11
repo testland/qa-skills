@@ -1,9 +1,6 @@
 ---
 name: ceedling-build-runner
 description: "Use when a C project wants Unity, CMock and CException run by one build command, or CMock mocks need writing or reading: Ceedling project scaffolding, project.yml, test tasks, JUnit XML, gcov coverage, host vs cross builds and CI. The Unity assertion API is unity-test-framework-c."
-metadata:
-  keywords: "ceedling, unity, cmock, cexception, c, embedded, rake, throwtheswitch"
-  version: "1.3.11"
 ---
 
 # ceedling-build-runner

@@ -1,9 +1,6 @@
 ---
 name: opentelemetry-trace-assertions
 description: "Use when a service is instrumented with OpenTelemetry and alerts, SLOs or dashboards depend on span names or attributes a refactor could drop. Captures spans with the in-memory exporter in tests (Python, JS, Java) and asserts on names, attributes, status, kind and structure."
-metadata:
-  keywords: "opentelemetry, distributed-tracing, span-assertions, in-memory-exporter, observability-testing"
-  version: "1.1.12"
 ---
 
 # opentelemetry-trace-assertions

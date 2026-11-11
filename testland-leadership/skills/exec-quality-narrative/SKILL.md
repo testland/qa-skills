@@ -1,9 +1,6 @@
 ---
 name: exec-quality-narrative
 description: "Use before a QBR, board update or exec review when quality data exists (digests, KPIs, DORA metrics, escaped defects, OKR grades) but the story does not. Writes the executive narrative with the answer first and grouped support beneath it, using the Minto Pyramid and SCQA."
-metadata:
-  keywords: "executive-narrative, qbr, minto-pyramid, dora-metrics, quality-reporting, scqa"
-  version: "1.1.8"
 ---
 
 # exec-quality-narrative

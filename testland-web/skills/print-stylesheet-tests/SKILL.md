@@ -1,9 +1,6 @@
 ---
 name: print-stylesheet-tests
 description: "Use when an app has a Print button or print stylesheet that is untested, or printed and PDF copies break in the wrong places. Tests print CSS with Playwright print emulation and page.pdf(): @page size and margins, page breaks, orphans and widows, and print-only rules."
-metadata:
-  keywords: "print-css, paged-media, playwright, emulateMedia, page-rule"
-  version: "1.1.11"
 ---
 
 # print-stylesheet-tests

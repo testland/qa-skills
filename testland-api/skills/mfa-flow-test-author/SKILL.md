@@ -1,9 +1,6 @@
 ---
 name: mfa-flow-test-author
 description: "Use when multi-factor login needs automated tests or a new second factor is being added: deterministic TOTP and HOTP codes, SMS or email OTP, WebAuthn passkeys via the Chrome virtual authenticator, recovery codes, enrollment and step-up challenges."
-metadata:
-  keywords: "mfa, totp, hotp, webauthn, passkey, otp, sms, recovery-codes, step-up, enrollment, rfc6238, rfc4226"
-  version: "1.2.17"
 ---
 
 # mfa-flow-test-author

@@ -1,9 +1,6 @@
 ---
 name: hardware-in-loop-reference
 description: "Use when scoping an embedded hardware-in-the-loop (HIL) rig or reading an automotive, aerospace or industrial HIL report: MIL, SIL, PIL and HIL stages, NI, dSPACE, Vector and Speedgoat stacks, CAN, LIN, FlexRay and Ethernet emulation, fault injection and ISO 26262, DO-178C and IEC 61508 evidence."
-metadata:
-  keywords: "hil, hardware-in-loop, embedded, automotive, ecu, iso-26262, do-178c, canoe, veristand"
-  version: "1.3.7"
 ---
 
 # hardware-in-loop-reference

@@ -1,7 +1,7 @@
 {
   "name": "testland-ai",
   "displayName": "Testland AI",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Testing AI and data systems: LLM evaluation and red-teaming, ML model tests, search relevance, AI-assisted test generation and review, and data quality checks.",
   "author": {
     "name": "Testland",

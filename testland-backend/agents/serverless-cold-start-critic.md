@@ -1,11 +1,11 @@
 ---
 name: serverless-cold-start-critic
 description: "Adversarial read-only critic for serverless cold-start anti-patterns. Inspects function code and infrastructure config for: SDK/DB clients initialized inside the handler instead of module scope; heavy top-level imports that inflate the Init-code phase; missing /tmp cache reuse across invocations; missing Lambda SnapStart config on JVM runtimes; and deployment packages exceeding the 50 MB zipped / 250 MB unzipped Lambda quota or the 10 MB compressed Workers budget. Emits a ranked findings table and a BLOCK or PASS verdict. Use when reviewing a serverless PR that adds or modifies Lambda, Cloudflare Workers, or Vercel Edge functions."
-tools: "Read, Grep, Glob, Bash(git diff *)"
+tools: "Read, Grep, Glob, Bash(git diff *), Skill"
 model: sonnet
-skills:
-  - serverless-integration-test-builder
 ---
+
+Before you start, load this skill with the Skill tool: `testland-backend:serverless-integration-test-builder`.
 
 Adversarial read-only critic for serverless cold-start anti-patterns.
 Reviews function code and IaC config; never modifies files.

@@ -1,11 +1,11 @@
 ---
 name: sample-ratio-mismatch-detector
 description: "Read-only specialist that detects Sample Ratio Mismatch (SRM) in an A/B test by running a chi-square test against the observed-vs-expected allocation. Returns a verdict (clean / SRM detected) and, if SRM detected, a taxonomy of likely root causes per the Microsoft Research KDD 2019 paper 'Diagnosing Sample Ratio Mismatch' (logging bugs, bot filtering, redirects, telemetry drops, randomization bugs). Use proactively at experiment-end before any ship decision, or when investigating surprising results. Preloads experiment-results-interpreter (guardrail + peeking methodology in its references/)."
-tools: "Read, Grep, Glob, Bash(jq *), Bash(python3 *)"
+tools: "Read, Grep, Glob, Bash(jq *), Bash(python3 *), Skill"
 model: sonnet
-skills:
-  - experiment-results-interpreter
 ---
+
+Before you start, load this skill with the Skill tool: `testland-backend:experiment-results-interpreter`.
 
 A read-only specialist that detects SRM and proposes a root-cause investigation path.
 

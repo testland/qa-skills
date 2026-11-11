@@ -1,9 +1,6 @@
 ---
 name: add-to-homescreen-flow-tests
 description: "Use when a PWA's manifest, icons or install handler change, install conversions drop, or an install test is flaky. Builds Playwright tests for the install flow: installability criteria, the beforeinstallprompt and userChoice chain, the iOS Safari path and display-mode standalone after install."
-metadata:
-  keywords: "add-to-homescreen, beforeinstallprompt, appinstalled, display-mode, apple-touch-icon"
-  version: "1.2.8"
 ---
 
 # add-to-homescreen-flow-tests

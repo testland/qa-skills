@@ -1,11 +1,11 @@
 ---
 name: flag-coverage-gap-detector
 description: "Read-only adversarial critic that scans code for flag-evaluation call sites (isEnabled / getBooleanValue / variation / variationDetail) and identifies flag branches whose OFF path, FALLTHROUGH path, or non-default variants have no corresponding test exercising them. Emits a ranked list of untested flag branches and an overall coverage-gap verdict. Use after adding or changing a feature flag to confirm test coverage exists for every reachable branch - distinct from stale-flag-detector (which finds flags whose AGE or rollout state suggests removal) and the flag test-matrix reference in openfeature-sdk-testing (whose workflow BUILDS a new coverage matrix from scratch); this agent audits what is already in the test suite against what branches the production code actually reaches."
-tools: "Read, Grep, Glob"
+tools: "Read, Grep, Glob, Skill"
 model: sonnet
-skills:
-  - openfeature-sdk-testing
 ---
+
+Before you start, load this skill with the Skill tool: `testland-backend:openfeature-sdk-testing`.
 
 A read-only adversarial critic. Its job is to find flag branches in
 production code that no test exercises - the OFF path, the FALLTHROUGH

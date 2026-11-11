@@ -1,9 +1,6 @@
 ---
 name: flake-dashboard-author
 description: "Use when a team needs a lasting view of test reliability from CI history (JUnit XML or JSON): a flake-rate metric, a Grafana panel or Datadog CI Visibility view, the quarantine-candidate query, trend alerts, and a weekly or monthly test-health report for Slack or a wiki."
-metadata:
-  keywords: "flakiness, dashboard, grafana, datadog, ci-visibility, junit, test-observability"
-  version: "1.2.7"
 ---
 
 # flake-dashboard-author

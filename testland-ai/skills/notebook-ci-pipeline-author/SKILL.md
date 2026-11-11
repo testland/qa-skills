@@ -1,9 +1,6 @@
 ---
 name: notebook-ci-pipeline-author
 description: "Use when Jupyter notebooks must run in CI as tests, their outputs must stay stable, or a PR adding notebooks needs review. Wires papermill parameterized runs, nbval output checks, testbook unit tests, nbstripout and artifacts into GitHub Actions, plus a review checklist with a BLOCK or PASS verdict."
-metadata:
-  keywords: "notebook-ci, papermill, nbval, testbook, github-actions, nbstripout, jupyter, pipeline"
-  version: "1.2.11"
 ---
 
 # notebook-ci-pipeline-author

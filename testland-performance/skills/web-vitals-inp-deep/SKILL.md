@@ -1,9 +1,6 @@
 ---
 name: web-vitals-inp-deep
 description: "Use when a page feels slow to respond while LCP and CLS are green, or key interactions (form submit, modal open, route change) need an INP budget in CI. Breaks Interaction to Next Paint into input delay, processing and presentation, asserts per-interaction budgets in Playwright and finds long tasks."
-metadata:
-  keywords: "web-vitals, inp, core-web-vitals, responsiveness, performance"
-  version: "1.1.12"
 ---
 
 # web-vitals-inp-deep

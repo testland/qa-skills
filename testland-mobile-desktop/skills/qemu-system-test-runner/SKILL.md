@@ -1,9 +1,6 @@
 ---
 name: qemu-system-test-runner
 description: "Use when embedded tests must run on a virtual MCU or SoC instead of the host or real hardware, for correct endianness, alignment and interrupts: qemu-system-arm, aarch64 and riscv32 machine and CPU flags, loading ELF binaries, semihosting exit codes, GDB and QMP, and CI."
-metadata:
-  keywords: "qemu, embedded, arm, cortex-m, cortex-a, semihosting, system-emulation, riscv"
-  version: "1.3.10"
 ---
 
 # qemu-system-test-runner

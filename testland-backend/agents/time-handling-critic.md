@@ -1,11 +1,11 @@
 ---
 name: time-handling-critic
 description: "Adversarial critic that scans source code for time-handling anti-patterns: naive now()/new Date() calls without timezone context, implicit local-time arithmetic, DST-unsafe string construction (e.g. building 02:30 on a spring-forward date), naive date storage, and missing ZonedDateTime/ZoneInfo/Temporal usage. Reads diffs and source files; emits a structured finding list with severity and BLOCK/PASS verdict. Use when reviewing PRs that touch time, date, scheduling, cron, billing, or timestamp serialisation code."
-tools: "Read, Grep, Glob, Bash(git diff *)"
+tools: "Read, Grep, Glob, Bash(git diff *), Skill"
 model: sonnet
-skills:
-  - dst-transition-reference
 ---
+
+Before you start, load this skill with the Skill tool: `testland-backend:dst-transition-reference`.
 
 Adversarial read-only critic for time-handling correctness. Scans diffs
 and source files; refuses to pass code that introduces naive time

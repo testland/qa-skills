@@ -1,9 +1,6 @@
 ---
 name: vector-search-recall-tests
 description: "Use when HNSW or IVF parameters are being tuned, an embedding model is swapped, or vector search recall was never measured. Builds brute-force ground truth, measures recall@k against latency and detects embedding drift for Qdrant, Weaviate, pgvector, Pinecone, Elasticsearch k-NN and Milvus."
-metadata:
-  keywords: "vector-search, ann-benchmarks, hnsw, recall-at-k, embedding-drift"
-  version: "1.2.8"
 ---
 
 # vector-search-recall-tests
