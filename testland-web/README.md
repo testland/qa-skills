@@ -75,13 +75,13 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [automation-harness-bootstrapper](agents/automation-harness-bootstrapper.md) | Scaffolds a test-automation framework skeleton for a repo that has none - given the app's stack and entry points, generates the folder layout, base fixtures, a… |
-| [playwright-codegen-reviewer](agents/playwright-codegen-reviewer.md) | Adversarial reviewer that takes raw recorded E2E specs - Playwright codegen output OR Cypress Studio recordings - and refactors them to team-ready idiomatic co… |
-| [visual-baseline-curator](agents/visual-baseline-curator.md) | Builder agent that proposes a coverage-optimal initial baseline set for a Storybook (or page-driven app), generates the matching engine config (Chromatic story… |
-| [visual-diff-classifier](agents/visual-diff-classifier.md) | Adversarial reviewer of visual regression diffs. |
-| [accessibility-code-critic](agents/accessibility-code-critic.md) | Adversarial reviewer of one component's source code for WCAG 2.2 violations - reads the JSX / template / CSS, hunts for `<div onclick>`, missing focus manageme… |
-| [extension-test-author](agents/extension-test-author.md) | Action-taking agent that authors ONE browser-extension test file per behavior spec - detects Manifest version (V2 vs V3) and target browser (Chromium vs Firefo… |
-| [pwa-test-author](agents/pwa-test-author.md) | Action-taking agent that authors ONE PWA test file per behavior spec - detects the testable surface from manifest.json + service-worker registration and emits… |
+| [automation-harness-bootstrapper](agents/automation-harness-bootstrapper.md) | Use proactively whenever a repo has no UI or E2E test automation yet and needs a framework skeleton: folder layout, base fixtures, a page-object or screenplay… |
+| [playwright-codegen-reviewer](agents/playwright-codegen-reviewer.md) | Use proactively whenever a raw Playwright codegen or Cypress Studio recording lands in a PR. |
+| [visual-baseline-curator](agents/visual-baseline-curator.md) | Use proactively whenever a project starts visual regression testing or its baseline set needs an audit. |
+| [visual-diff-classifier](agents/visual-diff-classifier.md) | Use proactively whenever a Percy, Chromatic or Playwright visual build is about to be accepted. |
+| [accessibility-code-critic](agents/accessibility-code-critic.md) | Use proactively whenever a UI component's source (JSX, template, CSS) needs a WCAG 2.2 review, especially custom interactive widgets. |
+| [extension-test-author](agents/extension-test-author.md) | Use proactively whenever a browser extension needs a test for its background service worker, content scripts, popup or options page, messaging or storage. |
+| [pwa-test-author](agents/pwa-test-author.md) | Use proactively whenever a progressive web app needs a test for its service worker lifecycle, offline fallback, Workbox caching, web push or install prompt. |
 
 ## Data
 

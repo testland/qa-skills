@@ -49,9 +49,9 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [qa-manager](agents/qa-manager.md) | Generates a weekly backward-looking quality-status digest for a QA manager - reads CI run history, the defect tracker, and flake-quarantine state, computes pas… |
-| [regression-suite-curator](agents/regression-suite-curator.md) | Action-taking agent that curates the regression suite at two grains. |
-| [code-quality-critic](agents/code-quality-critic.md) | Adversarial reviewer of production code quality findings across SonarQube, Qlty, Lizard, Madge, and Knip. |
+| [qa-manager](agents/qa-manager.md) | Use proactively for a weekly quality status digest or when a manager asks where quality stands this sprint. |
+| [regression-suite-curator](agents/regression-suite-curator.md) | Use proactively for a quarterly suite review or a test-debt sprint when the regression suite has grown faster than its value. |
+| [code-quality-critic](agents/code-quality-critic.md) | Use proactively before merging a refactor PR or releasing a new module, when SonarQube, Qlty, Lizard, Madge or Knip reports need one decision. |
 
 ## Data
 

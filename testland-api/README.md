@@ -77,14 +77,14 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [api-test-author](agents/api-test-author.md) | Action-taking agent that authors ONE API test file per behavior spec - picks the tool from the plugin README's decision table using observable project facts (o… |
-| [contract-drift-investigator](agents/contract-drift-investigator.md) | Read-only investigator that diffs current contracts against the last-known-green baseline (Pact pact files, OpenAPI spec, GraphQL SDL, Protobuf .proto), catego… |
-| [contract-test-scaffolder](agents/contract-test-scaffolder.md) | Builder agent that reads a service contract artifact (OpenAPI 3.x spec, GraphQL SDL, Protobuf .proto, or an existing Pact pact file) and emits scaffolded contr… |
-| [grpc-service-reviewer](agents/grpc-service-reviewer.md) | Adversarial read-only reviewer for new or changed gRPC services. |
-| [token-storage-security-critic](agents/token-storage-security-critic.md) | Adversarial critic that scans frontend, mobile, and backend source code for token-storage and session anti-patterns: JWTs or access tokens in localStorage / se… |
-| [realtime-protocol-reviewer](agents/realtime-protocol-reviewer.md) | Adversarial read-only reviewer of real-time protocol handler code (WebSocket / SSE / MQTT / webhook receiver). |
-| [notification-delivery-critic](agents/notification-delivery-critic.md) | Read-only adversarial critic that reviews a PR diff or code change, not a live system, for delivery-reliability defects across email, SMS, push, and outbound-w… |
-| [payment-flow-critic](agents/payment-flow-critic.md) | Adversarial read-only reviewer of payment-integration code (PR diff or files). |
+| [api-test-author](agents/api-test-author.md) | Use proactively whenever one functional API test should be added to an existing test project. |
+| [contract-drift-investigator](agents/contract-drift-investigator.md) | Use proactively whenever a contract test fails or can-i-deploy says no, before opening a fix. |
+| [contract-test-scaffolder](agents/contract-test-scaffolder.md) | Use proactively whenever an API (OpenAPI, GraphQL SDL, Protobuf or an existing Pact file) needs its first consumer contract tests or a new operation added to t… |
+| [grpc-service-reviewer](agents/grpc-service-reviewer.md) | Use proactively whenever a PR adds or changes a gRPC service (proto, implementation and tests). |
+| [token-storage-security-critic](agents/token-storage-security-critic.md) | Use proactively whenever a PR touches auth tokens, cookies, API client setup or refresh logic. |
+| [realtime-protocol-reviewer](agents/realtime-protocol-reviewer.md) | Use proactively whenever a PR touches a WebSocket, SSE, MQTT or webhook receiver handler. |
+| [notification-delivery-critic](agents/notification-delivery-critic.md) | Use proactively whenever a PR touches an email, SMS, push or outbound-webhook send path. |
+| [payment-flow-critic](agents/payment-flow-critic.md) | Use proactively whenever a PR touches payment integration code. |
 
 ## Data
 

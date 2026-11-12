@@ -70,10 +70,10 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [security-finding-triager](agents/security-finding-triager.md) | Adversarial cross-domain unifier of security scanner output - one gate agent for six finding domains: SAST (Semgrep / SonarQube / CodeQL / Bandit / gosec), DAS… |
-| [terraform-plan-reviewer](agents/terraform-plan-reviewer.md) | Read-only adversarial reviewer that analyzes a `terraform plan` output (JSON form via `terraform show -json`) for high-blast-radius changes - flags resource de… |
-| [tenant-leak-critic](agents/tenant-leak-critic.md) | Adversarial agent that reviews a PR or set of changed files for tenant-leak risk. |
-| [fuzz-target-author](agents/fuzz-target-author.md) | Builder agent that scaffolds a coverage-guided fuzz target from a target function signature. |
+| [security-finding-triager](agents/security-finding-triager.md) | Use proactively whenever several security scanners (SAST, DAST, secrets, SCA, container or SBOM, IaC) ran on a PR and it needs one decision. |
+| [terraform-plan-reviewer](agents/terraform-plan-reviewer.md) | Use proactively as a PR gate on any terraform plan. |
+| [tenant-leak-critic](agents/tenant-leak-critic.md) | Use proactively before merging a PR that touches tenant-bearing code, or when investigating a cross-tenant leak. |
+| [fuzz-target-author](agents/fuzz-target-author.md) | Use proactively whenever a function or parser should get its first coverage-guided fuzz target. |
 
 ## Data
 

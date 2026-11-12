@@ -64,10 +64,10 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [property-based-test-author](agents/property-based-test-author.md) | Action-taking agent that authors ONE property-based test per invariant - picks the tool from the plugin README's per-language decision table (or accepts an ove… |
-| [vacuous-property-critic](agents/vacuous-property-critic.md) | Adversarial read-only critic that detects vacuous and trivially-passing property-based tests across fast-check (JS/TS) and Hypothesis (Python) test suites. |
-| [bdd-scenario-author](agents/bdd-scenario-author.md) | Action-taking agent that authors Gherkin scenarios and scaffolds step definitions end-to-end - accepts a user story or acceptance criteria list, invokes gherki… |
-| [gherkin-style-reviewer](agents/gherkin-style-reviewer.md) | Adversarial reviewer for Gherkin Feature files - flags imperative steps (\"click button #foo\"), technical leakage (DB names / API URLs / CSS selectors in step… |
+| [property-based-test-author](agents/property-based-test-author.md) | Use proactively whenever a stated invariant (roundtrip, idempotence, conservation, ordering) should become a property-based test. |
+| [vacuous-property-critic](agents/vacuous-property-critic.md) | Use proactively whenever fast-check or Hypothesis property tests are added, or one passes in CI but never finds a counterexample. |
+| [bdd-scenario-author](agents/bdd-scenario-author.md) | Use proactively whenever a user story or acceptance criteria should become runnable BDD tests. |
+| [gherkin-style-reviewer](agents/gherkin-style-reviewer.md) | Use proactively whenever .feature files are added or changed in a PR. |
 
 ## Data
 

@@ -51,14 +51,14 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [test-script-quality-critic](agents/test-script-quality-critic.md) | Adversarial critic for authored manual test scripts in this plugin's formats (step-table, Gherkin, UAT, or checklist, as produced by `manual-test-script-author… |
-| [bug-report-from-recording](agents/bug-report-from-recording.md) | Action-taking agent that ingests a Playwright trace.zip (and/or a HAR file plus console logs and screenshots) and emits a structured bug report matching the `b… |
-| [bug-repro-builder](agents/bug-repro-builder.md) | Action-taking agent that turns a bug report into a minimal failing test (or, when the bug needs more context than a unit test allows, a minimal repro repositor… |
-| [defect-pipeline-runner](agents/defect-pipeline-runner.md) | Runs the full weekly defect review as one agent, in three internal stages: (1) clusters the backlog into root-cause groups by stack-trace top frame, normalized… |
-| [ci-defect-filer](agents/ci-defect-filer.md) | Action-taking orchestrator that converts a CI test failure artifact (JUnit XML, Allure JSON, pytest --tb=short log, Playwright HTML report) into a deduped, fil… |
-| [defect-fix-verifier](agents/defect-fix-verifier.md) | Confirmation-testing agent that re-runs a defect's reproduction after the fix is claimed merged and issues a VERIFIED / NOT FIXED / BLOCKED verdict with eviden… |
-| [tcm-migration-agent](agents/tcm-migration-agent.md) | Action-taking orchestrator that executes a full test-case-management tool migration (e.g. |
-| [test-case-quality-critic](agents/test-case-quality-critic.md) | Adversarial agent that audits test **cases** (not test code) for quality against the anatomy + review rubric in test-case-anatomy-reference - from either input… |
+| [test-script-quality-critic](agents/test-script-quality-critic.md) | Use proactively whenever manual test scripts (step tables, Gherkin, UAT scripts or checklists) need review before hand-off to testers. |
+| [bug-report-from-recording](agents/bug-report-from-recording.md) | Use proactively whenever a Playwright trace.zip, HAR file, console log or screenshots from a failed run must become a bug report. |
+| [bug-repro-builder](agents/bug-repro-builder.md) | Use proactively whenever a bug report should become a minimal failing test or a minimal repro repository. |
+| [defect-pipeline-runner](agents/defect-pipeline-runner.md) | Use proactively for a weekly defect review of a bug backlog or tracker export. |
+| [ci-defect-filer](agents/ci-defect-filer.md) | Use proactively whenever failing CI tests (JUnit XML, Allure JSON, pytest log, Playwright report) must be filed as bugs in Jira, Linear or GitHub Issues withou… |
+| [defect-fix-verifier](agents/defect-fix-verifier.md) | Use proactively whenever a developer says a bug is fixed and someone must confirm it. |
+| [tcm-migration-agent](agents/tcm-migration-agent.md) | Use proactively whenever test cases must move from one test management tool to another (TestRail, Xray, Zephyr Scale, Allure TestOps, Qase). |
+| [test-case-quality-critic](agents/test-case-quality-critic.md) | Use proactively whenever test cases (not test code) need a quality audit, from a TestRail, Xray, Zephyr Scale, Allure TestOps or Qase repository or an export. |
 
 ## Data
 

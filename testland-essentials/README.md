@@ -99,22 +99,22 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [quality-coach](agents/quality-coach.md) | Adversarial reviewer that critiques a story / PR / Increment against the team's Definition of Done - reads the team's `docs/definition-of-done.md` (or whicheve… |
-| [release-engineer](agents/release-engineer.md) | Builder/scaffolder agent that orchestrates the release runbook for one specific release - reads the team's `docs/release-runbook.md` (or the release-runbook-au… |
-| [release-readiness-checker](agents/release-readiness-checker.md) | Orchestrates a configurable multi-gate suite before a release and emits a single go / no-go verdict with per-gate evidence. |
-| [golden-file-manager](agents/golden-file-manager.md) | Action-taking agent that maintains snapshot / golden file health across a project - adds new baselines for previously-uncovered tests, updates baselines after… |
-| [test-data-setup-agent](agents/test-data-setup-agent.md) | Action-taking agent that sets up a complete test-data layer for a single feature - detects the project language and stack, generates per-test fixture factories… |
-| [e2e-selector-quality-critic](agents/e2e-selector-quality-critic.md) | Adversarial reviewer specialized for E2E test selector fragility only - flags brittle CSS class selectors / nth-child / XPath / position-based selectors and re… |
-| [framework-architecture-auditor](agents/framework-architecture-auditor.md) | Adversarial reviewer that audits the test framework codebase at the **architecture tier** - POM consistency across pages, base-class hierarchy depth, fixture c… |
-| [test-code-critic](agents/test-code-critic.md) | Adversarial reviewer specialized for **test files only** - flags violations of the conventions in `test-code-conventions` across three dimensions: structure (A… |
-| [test-suite-health-auditor](agents/test-suite-health-auditor.md) | Adversarial cross-tool auditor that evaluates an existing test suite's current state across seven axes: file inventory, tier classification (unit/integration/E… |
-| [daily-test-suite-aggregator](agents/daily-test-suite-aggregator.md) | Action-taking agent that ingests test-run artifacts from multiple suites (unit, integration, E2E, contract, performance, accessibility) and multiple environmen… |
-| [release-quality-report-agent](agents/release-quality-report-agent.md) | Action-taking agent that assembles an evidence-backed release-quality go/no-go report for QA managers and heads of engineering by composing a test-run narrativ… |
-| [ci-pipeline-health-critic](agents/ci-pipeline-health-critic.md) | Adversarial critic that inspects an existing CI config file (GitHub Actions workflow, .gitlab-ci.yml, Jenkinsfile, or .circleci/config.yml) for test-pipeline a… |
-| [e2e-flake-bisector](agents/e2e-flake-bisector.md) | Runs a target end-to-end test N times under varied conditions (worker isolation, test order, viewport, network throttling, parallelism) to identify the axis al… |
-| [regression-bisector](agents/regression-bisector.md) | Orchestrates `git bisect` against a target test or build script to identify the introducing commit of a regression. |
-| [db-snapshot-restore](agents/db-snapshot-restore.md) | Action-taking agent that gives integration tests a clean database between cases - captures a baseline `snapshot` once (template DB for Postgres, mysqldump for… |
-| [test-environment-bootstrapper](agents/test-environment-bootstrapper.md) | Wires a full integration/E2E test environment from scratch for a greenfield service - spins up containers (Testcontainers or Docker Compose), runs schema migra… |
+| [quality-coach](agents/quality-coach.md) | Use proactively during PR review or before a story is marked done. |
+| [release-engineer](agents/release-engineer.md) | Use proactively to conduct one release from the team's runbook: smoke gate, canary deploy with metric thresholds, then rollout or rollback. |
+| [release-readiness-checker](agents/release-readiness-checker.md) | Use proactively whenever someone asks if all release conditions are met before a release starts. |
+| [golden-file-manager](agents/golden-file-manager.md) | Use proactively for snapshot or golden-file maintenance, such as after a refactor touches many snapshot tests. |
+| [test-data-setup-agent](agents/test-data-setup-agent.md) | Use proactively whenever a feature has no test-data strategy and needs one in a single pass. |
+| [e2e-selector-quality-critic](agents/e2e-selector-quality-critic.md) | Use proactively whenever Playwright, Cypress, Selenium or WebdriverIO tests may rely on brittle selectors. |
+| [framework-architecture-auditor](agents/framework-architecture-auditor.md) | Use proactively for a quarterly or pre-refactor review of a whole test framework. |
+| [test-code-critic](agents/test-code-critic.md) | Use proactively whenever test files (*.spec.*, *.test.*, tests/) change in a PR. |
+| [test-suite-health-auditor](agents/test-suite-health-auditor.md) | Use proactively whenever a team wants an outside read on a whole test suite's health. |
+| [daily-test-suite-aggregator](agents/daily-test-suite-aggregator.md) | Use proactively whenever yesterday's test results from several suites (unit, integration, E2E, contract, performance, accessibility) and environments need one… |
+| [release-quality-report-agent](agents/release-quality-report-agent.md) | Use proactively whenever a release candidate needs a go or no-go recommendation for a QA manager or head of engineering. |
+| [ci-pipeline-health-critic](agents/ci-pipeline-health-critic.md) | Use proactively whenever a CI config (GitHub Actions, GitLab CI, Jenkinsfile, CircleCI) is added or changed. |
+| [e2e-flake-bisector](agents/e2e-flake-bisector.md) | Use proactively whenever an end-to-end test is flaky and the trigger is unknown. |
+| [regression-bisector](agents/regression-bisector.md) | Use proactively whenever a test that used to pass now fails every time on trunk, or a k6 or Lighthouse run shows a performance regression with no known cause. |
+| [db-snapshot-restore](agents/db-snapshot-restore.md) | Use proactively whenever integration tests share a database and need per-test isolation faster than drop and migrate. |
+| [test-environment-bootstrapper](agents/test-environment-bootstrapper.md) | Use proactively whenever a service has no integration or E2E test environment yet. |
 
 ## Data
 

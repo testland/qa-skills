@@ -55,7 +55,7 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [observability-to-test](agents/observability-to-test.md) | Closes the loop between production observability signals and the test suite - reads a synthetic-monitor failure / Sentry error / Datadog incident / log alert,… |
+| [observability-to-test](agents/observability-to-test.md) | Use proactively after a production incident, Sentry error, Datadog alert or failed synthetic monitor. |
 
 ## Data
 

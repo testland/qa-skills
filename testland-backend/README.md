@@ -75,17 +75,17 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [async-job-health-critic](agents/async-job-health-critic.md) | Adversarial read-only critic for queue and worker code across BullMQ, Celery, Sidekiq, SQS, and RabbitMQ. |
-| [cache-key-collision-detector](agents/cache-key-collision-detector.md) | Read-only specialist that scans application code for cache-key collision risks - keys that should be unique per (tenant, user, locale, region) but aren't. |
-| [concurrency-critic](agents/concurrency-critic.md) | Adversarial static pass over concurrency-heavy code (threads, goroutines, async/await) that inspects for unguarded shared mutable state, lock-ordering inconsis… |
-| [migration-blast-radius-reviewer](agents/migration-blast-radius-reviewer.md) | Adversarial reviewer for a single database migration (Flyway V*.sql, Liquibase changeset, Atlas migration, or SQLMesh model change) covering blast radius AND p… |
-| [trace-coverage-reviewer](agents/trace-coverage-reviewer.md) | Adversarial reviewer of OpenTelemetry instrumentation coverage. |
-| [flag-coverage-gap-detector](agents/flag-coverage-gap-detector.md) | Read-only adversarial critic that scans code for flag-evaluation call sites (isEnabled / getBooleanValue / variation / variationDetail) and identifies flag bra… |
-| [sample-ratio-mismatch-detector](agents/sample-ratio-mismatch-detector.md) | Read-only specialist that detects Sample Ratio Mismatch (SRM) in an A/B test by running a chi-square test against the observed-vs-expected allocation. |
-| [stale-flag-detector](agents/stale-flag-detector.md) | Read-only specialist that scans a codebase for stale feature flags - flags at 100% rollout for long enough to remove, kill-switches that haven't been touched i… |
-| [saga-critic](agents/saga-critic.md) | Adversarial critic for saga orchestration and event-sourcing code. |
-| [serverless-cold-start-critic](agents/serverless-cold-start-critic.md) | Adversarial read-only critic for serverless cold-start anti-patterns. |
-| [time-handling-critic](agents/time-handling-critic.md) | Adversarial critic that scans source code for time-handling anti-patterns: naive now()/new Date() calls without timezone context, implicit local-time arithmeti… |
+| [async-job-health-critic](agents/async-job-health-critic.md) | Use proactively whenever a PR adds or changes queue producers, workers, job definitions or broker config (BullMQ, Celery, Sidekiq, SQS, RabbitMQ). |
+| [cache-key-collision-detector](agents/cache-key-collision-detector.md) | Use proactively whenever a PR touches cache.set, cache.get or memoization, or one user sees another user's data. |
+| [concurrency-critic](agents/concurrency-critic.md) | Use proactively whenever a PR adds or changes concurrent code: threads, goroutines or async/await. |
+| [migration-blast-radius-reviewer](agents/migration-blast-radius-reviewer.md) | Use proactively before merging any database migration PR (Flyway, Liquibase, Atlas, SQLMesh). |
+| [trace-coverage-reviewer](agents/trace-coverage-reviewer.md) | Use proactively after an OpenTelemetry instrumentation PR or before a feature goes to production. |
+| [flag-coverage-gap-detector](agents/flag-coverage-gap-detector.md) | Use proactively after a feature flag is added or changed. |
+| [sample-ratio-mismatch-detector](agents/sample-ratio-mismatch-detector.md) | Use proactively at the end of an A/B test before any ship decision, or when results look surprising. |
+| [stale-flag-detector](agents/stale-flag-detector.md) | Use proactively for a monthly or quarterly feature-flag debt audit, or before a major refactor. |
+| [saga-critic](agents/saga-critic.md) | Use proactively whenever a PR adds or changes saga orchestrators, step or compensation handlers, or event-sourcing write paths. |
+| [serverless-cold-start-critic](agents/serverless-cold-start-critic.md) | Use proactively whenever a PR adds or changes AWS Lambda, Cloudflare Workers or Vercel Edge functions. |
+| [time-handling-critic](agents/time-handling-critic.md) | Use proactively whenever a PR touches dates, times, scheduling, cron, billing or timestamp serialization. |
 
 ## Data
 

@@ -63,10 +63,10 @@ Claude apps: add the marketplace `testland/qa-skills` under Customize > Plugins,
 
 | Agent | What it does |
 | --- | --- |
-| [mobile-test-author](agents/mobile-test-author.md) | Action-taking agent that authors mobile UI tests end to end: Step 1 detects the driver from project markers (package.json + detox, pubspec.yaml, *.xcodeproj, a… |
-| [desktop-test-author](agents/desktop-test-author.md) | Action-taking agent that authors desktop UI tests end to end: Step 1 detects the app type + driver via the decision table in desktop-test-strategy-reference (c… |
-| [embedded-test-author](agents/embedded-test-author.md) | Action-taking agent that authors embedded C/C++ unit tests end to end: Step 1 detects the framework and execution path from the project root (Ceedling project.… |
-| [game-test-scenario-author](agents/game-test-scenario-author.md) | Action-taking agent that authors game-engine tests end to end: Step 1 detects the engine from project markers (Unity ProjectSettings/ProjectVersion.txt, Unreal… |
+| [mobile-test-author](agents/mobile-test-author.md) | Use proactively whenever a mobile UI test should be written, even when no test project exists yet. |
+| [desktop-test-author](agents/desktop-test-author.md) | Use proactively whenever a desktop UI test should be written for a Windows, macOS or Linux app, even when no test project exists yet. |
+| [embedded-test-author](agents/embedded-test-author.md) | Use proactively whenever embedded C or C++ code needs a unit test, even when no harness exists yet. |
+| [game-test-scenario-author](agents/game-test-scenario-author.md) | Use proactively whenever a Unity, Unreal or Godot game system needs a scenario test, even when no test tree exists yet. |
 
 ## Data
 
