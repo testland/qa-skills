@@ -42,7 +42,7 @@
       "name": "testland-unit-testing",
       "source": "./testland-unit-testing",
       "description": "Unit and code-level testing: unit tests for JavaScript and TypeScript, Python, JVM, .NET, Go and Rust, mutation testing, property-based testing, BDD, and CLI tool tests.",
-      "version": "1.1.7"
+      "version": "1.1.8"
     },
     {
       "name": "testland-ai",
