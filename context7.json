@@ -1,5 +1,7 @@
 {
   "$schema": "https://context7.com/schema/context7.json",
+  "url": "https://context7.com/testland/qa-skills",
+  "public_key": "pk_dJjFnwYHn9sw4sY7ScCG8",
   "projectTitle": "Testland QA Skills",
   "description": "Software testing and QA skills for Claude: 329 skills and 73 agents in 11 Claude Code plugins (packs), installed from the testland-qa-skills marketplace. Each skill covers one testing tool or technique; the install commands inside a skill set up that tool, not the packs.",
   "rules": [
