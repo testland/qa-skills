@@ -24,19 +24,19 @@
       "name": "testland-api",
       "source": "./testland-api",
       "description": "Testing APIs and integrations: REST API tests, consumer-driven contracts, GraphQL, gRPC, auth flows (OAuth, OIDC, Keycloak, Auth0, Okta), real-time protocols, email and push notifications, and payment flows.",
-      "version": "1.0.8"
+      "version": "1.0.9"
     },
     {
       "name": "testland-security",
       "source": "./testland-security",
       "description": "Security testing and compliance: SAST, DAST, dependency, secret and SBOM scanning, infrastructure-as-code checks, fuzzing, compliance controls, test-data privacy, and multi-tenant isolation tests.",
-      "version": "1.0.7"
+      "version": "1.0.8"
     },
     {
       "name": "testland-web",
       "source": "./testland-web",
       "description": "Testing web front ends: browser end-to-end tests, visual regression, accessibility, localization, PDF and print output, browser extensions, and progressive web apps.",
-      "version": "1.1.5"
+      "version": "1.1.6"
     },
     {
       "name": "testland-unit-testing",
@@ -54,13 +54,13 @@
       "name": "testland-mobile-desktop",
       "source": "./testland-mobile-desktop",
       "description": "Testing native apps and devices: iOS and Android, desktop apps, embedded and hardware-in-the-loop systems, and games.",
-      "version": "1.0.7"
+      "version": "1.0.8"
     },
     {
       "name": "testland-performance",
       "source": "./testland-performance",
       "description": "Performance, resilience and production checks: load testing, chaos and resilience drills, synthetic monitors, canary validation, and release runbooks.",
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     {
       "name": "testland-manual-testing",
